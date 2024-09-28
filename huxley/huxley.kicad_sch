@@ -5188,6 +5188,44 @@
 		)
 	)
 	(sheet
+		(at 93.98 176.53)
+		(size 25.4 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36719c56-32a6-42e5-970f-52a0fedf7211")
+		(property "Sheetname" "isense"
+			(at 93.98 175.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "isense.kicad_sch"
+			(at 93.98 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 60.96 176.53)
 		(size 21.59 3.81)
 		(fields_autoplaced yes)
@@ -5297,6 +5335,44 @@
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 165.1)
+		(size 27.94 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b75e3563-89bb-4794-9213-b0fc22374a5c")
+		(property "Sheetname" "ibias"
+			(at 92.71 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ibias.kicad_sch"
+			(at 92.71 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "5")
 				)
 			)
 		)

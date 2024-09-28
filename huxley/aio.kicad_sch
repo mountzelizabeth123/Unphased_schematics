@@ -5,162 +5,6 @@
 	(uuid "705faf2f-552c-47e6-a427-4bf95e5da214")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_Coaxial_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial_Small"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_Small_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_Small_1_1"
-				(arc
-					(start -1.1916 -0.6311)
-					(mid 0.327 -1.3081)
-					(end 1.3484 0.0039)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.3484 -0.0039)
-					(mid 0.327 1.3081)
-					(end -1.1916 0.6311)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -466,6 +310,330 @@
 				)
 			)
 		)
+		(symbol "_PHASE:SMA_RF2-04A-T-00-50-G"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J4"
+				(at 12.1804 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SMA_RF2-04A-T-00-50-G"
+				(at 12.1804 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "112404"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "112404"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_112404_AMP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMA_RF2-04A-T-00-50-G_0_1"
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 12.192 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMA_RF2-04A-T-00-50-G_1_1"
+				(arc
+					(start 11.5084 -5.7111)
+					(mid 13.027 -6.3881)
+					(end 14.0484 -5.0761)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 14.0484 -5.0839)
+					(mid 13.027 -3.772)
+					(end 11.5084 -4.4489)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 1.27) hide
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 1.27) hide
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 1.27) hide
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SMA_RF2-04A-T-00-50-G_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -606,6 +774,12 @@
 		(uuid "442af506-66bd-4a2a-974b-f9781ffc1caa")
 	)
 	(junction
+		(at 170.18 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "477bfdc4-a3b2-4618-96fa-d82f3e347686")
+	)
+	(junction
 		(at 45.72 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -628,6 +802,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58a96c05-8070-4401-bccc-d385f66bd672")
+	)
+	(junction
+		(at 170.18 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59cee5a6-17ac-4204-b946-07e9ce03952a")
+	)
+	(junction
+		(at 170.18 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b3bf838-dd76-4235-94df-3bb1976a881a")
 	)
 	(junction
 		(at 85.09 110.49)
@@ -696,6 +882,12 @@
 		(uuid "a25ee4a0-510d-409a-9858-359007707ac1")
 	)
 	(junction
+		(at 170.18 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a56d0c4d-8b0c-4d12-8330-77be990bb77a")
+	)
+	(junction
 		(at 142.24 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -708,10 +900,22 @@
 		(uuid "b9fe1e95-9932-4b64-bb12-e7b592bea6c1")
 	)
 	(junction
+		(at 170.18 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba30a89a-a588-412e-899e-1aa0c4ea4946")
+	)
+	(junction
 		(at 95.25 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb517481-3682-442d-bfbe-33ee2504b8c5")
+	)
+	(junction
+		(at 170.18 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccb6a563-5e23-4a89-a455-79b21baad31b")
 	)
 	(junction
 		(at 214.63 38.1)
@@ -792,6 +996,16 @@
 			(type default)
 		)
 		(uuid "073825c5-dc73-443e-8064-75c6216a8f90")
+	)
+	(wire
+		(pts
+			(xy 170.18 104.14) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074bd52c-9077-4c04-8ee9-f64f48ec50a3")
 	)
 	(wire
 		(pts
@@ -882,6 +1096,16 @@
 			(type default)
 		)
 		(uuid "1ba06fba-0a03-4f76-9813-6207e7044580")
+	)
+	(wire
+		(pts
+			(xy 165.1 143.51) (xy 170.18 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc7bb4e-fe87-4c63-b901-eae9db1f9936")
 	)
 	(wire
 		(pts
@@ -1025,6 +1249,36 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 153.67) (xy 170.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d1dc00-8f9a-48ff-9e69-f0190ffa0aa8")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35faa66e-20d3-4057-82e9-f107c6ab4e70")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c4a459-e096-49db-a078-ac76655d82b8")
+	)
+	(wire
+		(pts
 			(xy 142.24 69.85) (xy 142.24 67.31)
 		)
 		(stroke
@@ -1032,6 +1286,16 @@
 			(type default)
 		)
 		(uuid "38e14ff0-d11d-4760-a4b6-4549f9cd767a")
+	)
+	(wire
+		(pts
+			(xy 170.18 143.51) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8f1869-0647-4145-9644-90e0eebb8264")
 	)
 	(wire
 		(pts
@@ -1052,6 +1316,16 @@
 			(type default)
 		)
 		(uuid "3c05e73e-3810-42ba-88d7-cd4bbb15b8b6")
+	)
+	(wire
+		(pts
+			(xy 165.1 133.35) (xy 170.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c409216-e22e-4543-b92a-0cde7ba52469")
 	)
 	(wire
 		(pts
@@ -1232,6 +1506,16 @@
 			(type default)
 		)
 		(uuid "66693dd5-4880-41d5-8dfe-25a0bac568d7")
+	)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 170.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f59d85-2903-4975-bb38-9e33989fdeef")
 	)
 	(wire
 		(pts
@@ -1445,16 +1729,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 31.75) (xy 115.57 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a112fe73-a6c4-4c64-9a6c-2ba6fa3c46b4")
-	)
-	(wire
-		(pts
 			(xy 44.45 50.8) (xy 44.45 41.91)
 		)
 		(stroke
@@ -1515,6 +1789,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 104.14) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa097d39-fd99-4d51-ae5d-daf284c59f06")
+	)
+	(wire
+		(pts
 			(xy 213.36 73.66) (xy 208.28 73.66)
 		)
 		(stroke
@@ -1545,6 +1829,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 123.19) (xy 170.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f75d79-8d1b-4fb4-8b83-ba40a2776772")
+	)
+	(wire
+		(pts
+			(xy 170.18 162.56) (xy 170.18 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99a8352-6f40-4ebd-8c5c-22d7b816d904")
+	)
+	(wire
+		(pts
 			(xy 116.84 139.7) (xy 116.84 146.05)
 		)
 		(stroke
@@ -1552,6 +1856,16 @@
 			(type default)
 		)
 		(uuid "bc828cd2-dcbd-4194-bded-d7c58452320a")
+	)
+	(wire
+		(pts
+			(xy 165.1 162.56) (xy 170.18 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd00157c-b709-40d0-83e6-ddda71ece3f8")
 	)
 	(wire
 		(pts
@@ -1582,6 +1896,16 @@
 			(type default)
 		)
 		(uuid "bdca6da4-ef7e-4fbf-986a-19cd8c104927")
+	)
+	(wire
+		(pts
+			(xy 110.49 31.75) (xy 115.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bddfbb5f-860b-4599-ba99-350a3f7b3444")
 	)
 	(wire
 		(pts
@@ -1625,6 +1949,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 114.3) (xy 170.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1757012-a5c3-4aba-9490-addc1ecfc23e")
+	)
+	(wire
+		(pts
 			(xy 115.57 67.31) (xy 115.57 73.66)
 		)
 		(stroke
@@ -1632,6 +1966,16 @@
 			(type default)
 		)
 		(uuid "c207b464-d5b8-4992-992e-0b2f57249f46")
+	)
+	(wire
+		(pts
+			(xy 170.18 133.35) (xy 170.18 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c302c563-933b-43ca-b8d3-f798d6eaa8a7")
 	)
 	(wire
 		(pts
@@ -1675,6 +2019,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 123.19) (xy 170.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9db57e8-c2bb-4786-b200-d77b36749b87")
+	)
+	(wire
+		(pts
 			(xy 45.72 142.24) (xy 45.72 139.7)
 		)
 		(stroke
@@ -1682,6 +2036,26 @@
 			(type default)
 		)
 		(uuid "ccd847ea-7f1c-4d0d-b546-1c38bac7db90")
+	)
+	(wire
+		(pts
+			(xy 143.51 153.67) (xy 160.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd392dfc-fa53-4159-bc24-9466d68c6dcd")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe5433b-4542-4476-bd1d-aa7419c9bcbe")
 	)
 	(wire
 		(pts
@@ -1745,6 +2119,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 133.35) (xy 160.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a2d138-aeec-46f3-bb98-91ae129dd179")
+	)
+	(wire
+		(pts
 			(xy 115.57 38.1) (xy 115.57 50.8)
 		)
 		(stroke
@@ -1752,6 +2136,26 @@
 			(type default)
 		)
 		(uuid "da09c806-6055-4faf-bc74-a6e68a9c5a9c")
+	)
+	(wire
+		(pts
+			(xy 165.1 153.67) (xy 170.18 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da446fe7-2ba6-4946-be71-58ba68a7d572")
+	)
+	(wire
+		(pts
+			(xy 143.51 143.51) (xy 160.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfda3497-9ac3-46b7-b172-248e611db0fc")
 	)
 	(wire
 		(pts
@@ -1805,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 162.56) (xy 160.02 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cdd42d-49d9-4a10-bacf-c9070b8f4b71")
+	)
+	(wire
+		(pts
 			(xy 83.82 86.36) (xy 83.82 83.82)
 		)
 		(stroke
@@ -1844,6 +2258,27 @@
 			)
 		)
 	)
+	(global_label "iout_dummy_amp"
+		(shape input)
+		(at 143.51 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19ce8178-41df-499b-9d16-66298d0d58c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "output_4b"
 		(shape input)
 		(at 176.53 38.1 180)
@@ -1856,6 +2291,26 @@
 		(uuid "1b368719-aaa5-4a2f-9327-a4bf926f810c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "vrbias"
+		(shape bidirectional)
+		(at 144.78 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d4823bb-4453-4a0e-8572-379328f90187")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,6 +2360,26 @@
 			)
 		)
 	)
+	(global_label "vd1_dummy"
+		(shape output)
+		(at 143.51 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4673d4bf-026e-44d8-9a0c-8fa6e537629d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "output_0b"
 		(shape input)
 		(at 77.47 38.1 180)
@@ -1917,6 +2392,46 @@
 		(uuid "4e5f114b-9ad7-4934-950f-35435ea20188")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "vlvl"
+		(shape input)
+		(at 144.78 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50ef26c7-b27e-4c66-9cbc-7ce75e45ad18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "vbias0"
+		(shape output)
+		(at 143.51 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "64fd4849-1715-4c35-b483-730558a0a191")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,6 +2457,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "vbias2"
+		(shape output)
+		(at 143.51 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bfdd1b6-19a4-4b62-87e2-c2bd5a62fd9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2048,6 +2583,26 @@
 			)
 		)
 	)
+	(global_label "vlvl_p_dummy"
+		(shape output)
+		(at 143.51 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd89866d-bc6a-4b70-9708-266e36461d28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "output_2a"
 		(shape input)
 		(at 40.64 104.14 180)
@@ -2124,80 +2679,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "65c1c5b0-5bb1-4e16-b65b-284db5458234")
+			(uuid "f1ff3f03-ef41-4f4c-94cd-37d04bbe91a9")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 207.01 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01f3bf85-d104-42b5-99ec-0117ca02e02f")
-		(property "Reference" "J14"
-			(at 206.4904 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 206.4904 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 207.01 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "233deb85-3794-4a6e-923f-6b5995423559")
-		)
-		(pin "2"
-			(uuid "7567457d-3c79-460c-9f7f-ecfb1d38d6cf")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2259,10 +2746,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e292585-dc4c-4ef5-b438-48baa12c7b8b")
+			(uuid "7a2d83de-d618-48d4-970a-5f7d1f7e12c2")
 		)
 		(pin "2"
-			(uuid "727cce8a-91ef-41fa-9d96-19b5b8b7bdc8")
+			(uuid "36477551-798a-4502-8412-888e5e8ec291")
 		)
 		(instances
 			(project "huxley"
@@ -2329,83 +2816,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "aff8eb1d-4c78-4f63-910e-0269c400e517")
+			(uuid "cf55c14e-0ed4-4887-a336-5e4e0a8f8719")
 		)
 		(pin "2"
-			(uuid "2902d020-bc40-471c-b980-c70a9e74f06e")
+			(uuid "41e867be-978f-4c85-ba54-78e2ad9dc8be")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 107.95 38.1 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "065dd20f-6a4b-4897-999e-8fd850f00b4f")
-		(property "Reference" "J7"
-			(at 107.4304 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 107.4304 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 107.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a750146f-ea33-46c9-9325-e811eb3f4248")
-		)
-		(pin "2"
-			(uuid "976337b8-fa7a-42d0-8c1d-463d82356cd7")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2466,7 +2885,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "93ec00d8-f5cf-4bca-bd9c-8adcabef0965")
+			(uuid "d610b684-4bee-460b-a394-e5328695e655")
 		)
 		(instances
 			(project "huxley"
@@ -2533,15 +2952,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "0f77e343-62dd-43ef-9593-73f1e80cc5b8")
+			(uuid "8d7b9433-d219-485b-a1fa-54647f8d11cd")
 		)
 		(pin "1"
-			(uuid "ef033386-f044-4a50-b1f2-cbce36e28880")
+			(uuid "50a528a9-ffa2-4679-8c73-cf2dad60d6b5")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 149.86 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1181da6c-768f-4b5b-825e-05c9d59661f4")
+		(property "Reference" "J23"
+			(at 162.0404 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 162.0404 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ebc339bd-cb12-46eb-bc2f-57b935fef5b2")
+		)
+		(pin "3"
+			(uuid "bbabfd79-98f7-40a9-b0fb-1cfde50ea21d")
+		)
+		(pin "1"
+			(uuid "cfbb8fde-e619-4793-9a2b-17d8f8149329")
+		)
+		(pin "5"
+			(uuid "9216915d-6f5c-4e7d-89af-25c83cc8e841")
+		)
+		(pin "4"
+			(uuid "a9960f9c-406c-46be-a1bb-203c099fd633")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -2603,10 +3101,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "376dde35-99d0-46e3-a58a-08388d360e7e")
+			(uuid "c5c572eb-d167-4787-8a77-0879e5a49181")
 		)
 		(pin "1"
-			(uuid "ef026606-304f-401f-8880-88a837473090")
+			(uuid "5383c65f-5b56-4600-b5c3-bfcc37323487")
 		)
 		(instances
 			(project "huxley"
@@ -2672,7 +3170,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "746d2f4a-cd68-4e14-81f2-820b847f2442")
+			(uuid "d8272aea-33ec-4d9f-b0b9-e111e599b461")
 		)
 		(instances
 			(project "huxley"
@@ -2739,10 +3237,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "57a11030-c957-47a6-a18b-da066055b1a3")
+			(uuid "a7c59d43-7ff2-40bf-81ec-77fbbb695763")
 		)
 		(pin "2"
-			(uuid "e85109a3-97cf-4017-a673-91acc332019a")
+			(uuid "05cc6f0b-852d-415b-8975-82672c9ce592")
 		)
 		(instances
 			(project "huxley"
@@ -2754,33 +3252,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 109.22 104.14 0)
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 96.52 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f48984d-14d6-4e11-8d9c-07fb14374b0b")
-		(property "Reference" "J10"
-			(at 108.7004 97.79 0)
+		(uuid "2a30d817-9ea2-468b-9707-5777e643923c")
+		(property "Reference" "J12"
+			(at 105.156 144.272 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "SMA"
-			(at 108.7004 100.33 0)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 108.7004 142.24 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.22 104.14 0)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,34 +3306,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 109.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin ""
+			(uuid "ebfbb058-0ab4-4039-8446-7e6812c6ad1c")
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 109.22 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "c5689aa1-8c79-43d1-9694-82fb3e27e42b")
 		)
 		(pin "1"
-			(uuid "e7f0fcb8-396e-44b9-99e9-dcc5b8d68ba1")
+			(uuid "d06291cc-f73b-4255-80cb-236913e2bd89")
 		)
-		(pin "2"
-			(uuid "7eb23f03-02bc-43c5-9af7-b488e39abc51")
+		(pin "5"
+			(uuid "c27c6559-0cbb-4499-a7f3-4775200d9375")
+		)
+		(pin "4"
+			(uuid "b4182613-1ea3-4c8e-bfd0-c180f03bfc9b")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2876,7 +3385,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "342d784e-1471-49d1-8235-d4f11c2a64de")
+			(uuid "286d67e4-5b18-48de-8b41-429ac1078d11")
 		)
 		(instances
 			(project "huxley"
@@ -2943,13 +3452,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "09e237f9-d92c-4df8-88c7-ed0262cb9a02")
+			(uuid "ba5ec5dd-5ec6-4631-a701-f9263d0660dd")
 		)
 		(pin "2"
-			(uuid "6ab6af6b-3c39-4ef5-8f26-70ee9dbc4ff6")
+			(uuid "74c9621e-4a98-4b30-915e-f571d43f8ad8")
 		)
 		(instances
-			(project ""
+			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "C1")
 					(unit 1)
@@ -3012,148 +3521,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e360fe9-550f-43a1-a0ce-39d96dca0223")
+			(uuid "f45e03a5-2975-48eb-a919-7d9de59b233e")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 109.22 110.49 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37cd88a4-6494-407f-ab38-620ec35aa6e8")
-		(property "Reference" "J11"
-			(at 108.7004 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 108.7004 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 109.22 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "759b6031-8c38-4010-9357-7e8fbb1bc34e")
-		)
-		(pin "2"
-			(uuid "133388f5-93e0-46b9-b776-84d4e2aadd53")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 205.74 73.66 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3efa9f7e-9f1b-48b6-be70-03d7ba3a8be3")
-		(property "Reference" "J17"
-			(at 205.2204 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 205.2204 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b38b2fa6-748b-4af3-a258-176722bfc522")
-		)
-		(pin "2"
-			(uuid "a28c8e0a-21a5-4033-8cc7-bb85dc20bffe")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -3215,10 +3588,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "817d785d-3b1f-4ea5-9ce1-0008b0f3f997")
+			(uuid "a688e1e1-baf4-4f75-b631-596f093c347e")
 		)
 		(pin "2"
-			(uuid "748050e5-94ea-4713-8746-1a827de11855")
+			(uuid "6d4c07c1-13f6-4c2c-95b0-dfbff4b266c4")
 		)
 		(instances
 			(project "huxley"
@@ -3285,10 +3658,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ce80f287-fdf4-4665-8e52-1ca97a4b1f2a")
+			(uuid "7adf629d-e0ec-4e8b-9ce4-d7a34e585e55")
 		)
 		(pin "1"
-			(uuid "53533db9-7d78-476d-855a-fc766709c9b4")
+			(uuid "1c852c94-b250-449b-8da5-581ef8946e6b")
 		)
 		(instances
 			(project "huxley"
@@ -3354,80 +3727,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "92266b12-4d74-4809-885f-ddc173f1a29e")
+			(uuid "c8c5ef8e-c8c4-4cdc-8ee7-f8afc9333ccd")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 109.22 146.05 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f6d4f04-8a07-41f3-835d-9f38e14e49b8")
-		(property "Reference" "J13"
-			(at 108.7004 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 108.7004 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 109.22 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "344c20e6-adc3-43f3-869b-2e41202fc61a")
-		)
-		(pin "2"
-			(uuid "e39f91c9-7e55-4a33-b9e9-f58c81c0e6fa")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -3489,83 +3794,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed8618dc-c4fc-4ece-9ee8-b6ae461b17e4")
+			(uuid "9bcaa177-13cb-4b38-8ccb-7580913c7412")
 		)
 		(pin "2"
-			(uuid "64c6cbcc-dbdd-48ff-91c5-6735d7d2e774")
+			(uuid "dc312256-4527-4086-a4ea-4028f3b6f0aa")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 109.22 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53b6b0ce-9e86-42dd-bbc7-844eef7c5438")
-		(property "Reference" "J12"
-			(at 108.7004 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 108.7004 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 109.22 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f9d0025-2770-4426-a53f-103f4498f9ca")
-		)
-		(pin "2"
-			(uuid "c6854cfb-b1ba-4c30-8985-ff4cdbe39b04")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -3626,80 +3863,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcdcea89-246b-463a-a6d4-03a476e87469")
+			(uuid "d02c9a9a-6d59-4516-a2e6-89c12638f521")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 107.95 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e27e743-4a7b-46c8-b490-9dfba2365180")
-		(property "Reference" "J6"
-			(at 107.4304 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 107.4304 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 107.95 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0156771a-2a7c-4cec-b8dc-2da2139e2747")
-		)
-		(pin "2"
-			(uuid "93b93e52-3886-4aee-bb28-c30383e570d9")
-		)
-		(instances
-			(project ""
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3760,12 +3929,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "abbcd944-1414-446b-a166-c4f133114c64")
+			(uuid "11dabd61-a8de-4b7e-a23e-b2a750d1b037")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 96.52 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61584c92-cc89-4e7f-8578-d0fa9f71c842")
+		(property "Reference" "J11"
+			(at 108.7004 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 108.7004 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c8208e0c-024d-4894-b802-80d6fa91ea8b")
+		)
+		(pin "3"
+			(uuid "11fd4240-21af-4db1-ac36-8be1a441399e")
+		)
+		(pin "1"
+			(uuid "2c7df65f-7467-41b9-8693-14b5c5242c98")
+		)
+		(pin "5"
+			(uuid "135fac87-22c5-4916-86b8-72d69b055b46")
+		)
+		(pin "4"
+			(uuid "b154d5e1-dafd-44ba-a254-8a1a204771b7")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3781,7 +4029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6158876a-eaeb-44cd-b39b-a85d617afca5")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0101"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -3826,12 +4074,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "27d4fc08-a1e2-49f3-a6f0-ca2c7e7101e1")
+			(uuid "eb97c758-28bf-4acf-ac06-7fd1003952ce")
 		)
 		(instances
-			(project ""
+			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "#PWR03")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3892,7 +4140,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e040073-fe26-481a-ba9e-72b1b7494f22")
+			(uuid "8720927c-1179-4600-ad36-0bc535ece540")
 		)
 		(instances
 			(project "huxley"
@@ -3959,15 +4207,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a7788e0-43b7-4636-b39a-97f99d12c93c")
+			(uuid "c44b9672-81cd-48c8-a07d-469cb65e6115")
 		)
 		(pin "1"
-			(uuid "85a4f57e-bc89-49dd-9c24-b833b7ee2145")
+			(uuid "30ce563f-c524-4520-803f-8028a07724a7")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 193.04 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "658d6cba-0766-4413-a73e-aa274837ee46")
+		(property "Reference" "J15"
+			(at 205.2204 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 205.2204 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c824bacd-3f36-4cde-8047-212ee186ee0e")
+		)
+		(pin "3"
+			(uuid "1b52e85a-2dec-461e-88ec-5b1018971731")
+		)
+		(pin "1"
+			(uuid "301cc674-61ad-4653-b353-65edff1fe6a1")
+		)
+		(pin "5"
+			(uuid "f7078187-12b4-487c-afe0-5fcefa67d3d7")
+		)
+		(pin "4"
+			(uuid "7dbc0d36-8db8-494e-8d84-850844574b46")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -4028,7 +4355,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ecaba7bf-0fd8-4489-8b60-9974987a5f5b")
+			(uuid "0a68e679-85d6-4b02-8786-4568f4ee1258")
 		)
 		(instances
 			(project "huxley"
@@ -4094,12 +4421,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0c9c7ad-a510-4a20-936b-905f5307a172")
+			(uuid "d1180566-bd16-46db-b034-c2ecb76c611f")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 149.86 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c329f17-c26a-427d-9b7a-9aa7d63a1d81")
+		(property "Reference" "J19"
+			(at 162.0404 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 162.0404 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ca3b2d0d-2084-4903-a2aa-22e609a32f9c")
+		)
+		(pin "3"
+			(uuid "91f2f0bf-a6f1-4189-9e2c-0197c0c631da")
+		)
+		(pin "1"
+			(uuid "14413c22-eec3-469e-913e-2bb05e62c6ac")
+		)
+		(pin "5"
+			(uuid "0d6ca91f-6106-41c5-a811-89c4308f50c3")
+		)
+		(pin "4"
+			(uuid "1d7b1fd5-ed79-4880-aa2b-e61a8dc18d65")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4566,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb06174c-5758-423f-b460-751efe49d750")
+			(uuid "808b71b3-f182-44db-b0a0-8cbd708054fd")
 		)
 		(instances
 			(project "huxley"
@@ -4227,10 +4633,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8387aa14-0dd8-4b14-9c79-64d946e09828")
+			(uuid "419426db-8187-40ad-b2d3-7f9ef2a8822b")
 		)
 		(pin "1"
-			(uuid "d12de567-c988-451f-b5ac-9489b40815ed")
+			(uuid "cc089e44-e7ac-4944-b6ea-cbf5dd2d9f03")
 		)
 		(instances
 			(project "huxley"
@@ -4296,12 +4702,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c948da8-cf15-43c4-bde9-f0ed87da1bf6")
+			(uuid "831ebeaa-06c2-46ea-ab4a-dbba72cadbee")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 96.52 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "797a02bb-9878-4884-bcc1-f469850003b1")
+		(property "Reference" "J9"
+			(at 108.7004 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 108.7004 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c713c672-87e5-413a-8b36-1a160018eae0")
+		)
+		(pin "3"
+			(uuid "4eda3932-d3ab-4496-a054-194b51a9fbfa")
+		)
+		(pin "1"
+			(uuid "d9b8ccf6-c012-4970-8d1d-06374cf597c0")
+		)
+		(pin "5"
+			(uuid "3e89fcbf-492a-4538-89ff-793600e0cd50")
+		)
+		(pin "4"
+			(uuid "bbe10814-e5db-4fe2-a803-58eb9d42a3ad")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -4363,10 +4848,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9011d747-a072-4c29-b15d-481afbcfeade")
+			(uuid "9bf277cb-17ca-4581-8157-59a46638aba1")
 		)
 		(pin "1"
-			(uuid "1c413213-035e-428b-90fa-b93439ba29fa")
+			(uuid "6106252d-8a0c-41b6-adec-7b64d9b25021")
 		)
 		(instances
 			(project "huxley"
@@ -4378,33 +4863,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 205.74 67.31 0)
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 149.86 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85636b0e-e545-4a5d-841a-7270c2e4cde0")
-		(property "Reference" "J16"
-			(at 205.2204 60.96 0)
+		(uuid "7ef94d1b-16ed-4b9e-ad61-45e5ac7847dc")
+		(property "Reference" "J20"
+			(at 158.496 141.732 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "SMA"
-			(at 205.2204 63.5 0)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 162.0404 139.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 205.74 67.31 0)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 149.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,34 +4917,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 205.74 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin ""
+			(uuid "5acf99b2-9af2-4e8e-87f5-be5ca936cb5e")
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 205.74 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "7f9aba2b-847c-4701-81d3-8107d2554de6")
 		)
 		(pin "1"
-			(uuid "32d607c2-9818-4fac-81a4-32c6ac648ff8")
+			(uuid "cc58b884-27e0-4e02-abb4-4f50c7394440")
 		)
-		(pin "2"
-			(uuid "c1932a98-66ed-45fe-8bd5-a22491031640")
+		(pin "5"
+			(uuid "0f65a995-11d3-4b77-bbb8-b33e13e7e231")
+		)
+		(pin "4"
+			(uuid "0effc8a4-eb3d-48b1-a852-5c6406f827d4")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J16")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -4500,7 +4996,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6bdfbf4e-f0c8-4166-9e89-3ef83f636e81")
+			(uuid "20abac4d-c273-442f-a2fb-6caff72f2394")
 		)
 		(instances
 			(project "huxley"
@@ -4566,7 +5062,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8de9b0a2-7d81-45a6-80c9-052b7b496690")
+			(uuid "5e32858d-2e74-4de4-80ce-e7be6e5ebb57")
 		)
 		(instances
 			(project "huxley"
@@ -4633,10 +5129,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "80cc66f8-a756-47fb-af30-c06a6f8a72c5")
+			(uuid "c689354f-a06f-46c9-894a-f29a28bab149")
 		)
 		(pin "2"
-			(uuid "72020a9d-a213-4709-9514-1763c8b41851")
+			(uuid "33027264-54df-445f-83d7-26aae666acc6")
 		)
 		(instances
 			(project "huxley"
@@ -4703,15 +5199,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "0573b32d-9293-4358-af48-e82a4f0c1750")
+			(uuid "31313b62-aa69-4839-acae-2627fda3f284")
 		)
 		(pin "1"
-			(uuid "66bf3664-70e8-4f1b-a939-3cfca2954aee")
+			(uuid "7f530ce3-d6b3-4cb1-8d89-7633a22cc08b")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 193.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b083569-62a4-4245-9f3c-ead4518a85f3")
+		(property "Reference" "J16"
+			(at 201.676 71.882 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 205.2204 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d4ec69f2-2b80-446e-8b42-1b925a047d34")
+		)
+		(pin "3"
+			(uuid "ae11cc2b-b96e-473c-9fee-b67076071e0a")
+		)
+		(pin "1"
+			(uuid "21ddcaf9-e8d7-47b3-bd61-d38f3227efa6")
+		)
+		(pin "5"
+			(uuid "2f513cea-5236-4a55-a6d1-a561f04e6fe5")
+		)
+		(pin "4"
+			(uuid "d815318d-6678-4748-ab03-cf0e538574d1")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4773,15 +5348,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "f303d6da-bfcc-4f04-ae06-a1fd1bd44aca")
+			(uuid "a59cb0d5-3ac5-4827-b603-7d141cf00392")
 		)
 		(pin "1"
-			(uuid "85dd557c-664d-41ae-ac6a-054ce0ab60cf")
+			(uuid "0a3429b7-20b1-4e2e-802c-d1f9632814fb")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 149.86 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90874792-4628-4106-a9ee-0bd33622ef3e")
+		(property "Reference" "J22"
+			(at 158.496 102.362 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 162.0404 100.33 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "ad0f1a0e-c083-43bb-8bed-1175dff1b708")
+		)
+		(pin "3"
+			(uuid "2e81f93c-83bf-464d-8cd5-78ab10344a6c")
+		)
+		(pin "1"
+			(uuid "a2d31f1f-feca-4ae9-8937-b1e6f6a37bef")
+		)
+		(pin "5"
+			(uuid "098f08a0-d245-4e45-80a8-9a3bc0641c4e")
+		)
+		(pin "4"
+			(uuid "2c2566b8-7bba-4621-9ab1-fbdd713d0bfb")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -4842,7 +5496,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d50f4507-6617-4a89-9941-eb4692146551")
+			(uuid "85616f52-5342-48d6-87af-767646c730fc")
 		)
 		(instances
 			(project "huxley"
@@ -4909,15 +5563,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "a1d27bc5-b4cb-4e19-90b5-1d0632fab0ac")
+			(uuid "112b6247-58e3-4dfd-94de-d392e6f55379")
 		)
 		(pin "1"
-			(uuid "5153b1f3-2fff-43fa-9df9-152d44e67126")
+			(uuid "a1684e29-87c0-493f-83da-b277385f8420")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 149.86 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0bc1d6-81d0-46f5-9fa2-7e81fe403d28")
+		(property "Reference" "J18"
+			(at 158.496 160.782 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 162.0404 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 149.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 149.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "06259e1d-d5fb-499d-874f-5bd7eb7f478c")
+		)
+		(pin "3"
+			(uuid "5ad27ee1-62d5-431e-851c-3dfd94b35971")
+		)
+		(pin "1"
+			(uuid "9f382054-6f7d-4202-97c8-fd57f1995772")
+		)
+		(pin "5"
+			(uuid "3ef34b0a-d8b8-44c7-a526-667b76407707")
+		)
+		(pin "4"
+			(uuid "8897c34c-1177-48e8-bf33-f9a5ddbada34")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -4978,7 +5711,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b38c5e2c-4270-43a3-a157-9c9320d2da8f")
+			(uuid "b25de8e2-d5fa-42c6-b8cd-8cad2a201279")
 		)
 		(instances
 			(project "huxley"
@@ -5044,12 +5777,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa5c915c-2cba-4845-9cee-c802090e8425")
+			(uuid "19486cc1-a07a-4d66-8d3e-9a91608c2007")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 95.25 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a105047f-b051-401f-b890-9c9b3c23fbc2")
+		(property "Reference" "J8"
+			(at 103.886 71.882 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 107.4304 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d0739dbc-65db-4a8d-9718-e66b344fec68")
+		)
+		(pin "3"
+			(uuid "5a95e5f4-de21-4283-b939-88272fb7089b")
+		)
+		(pin "1"
+			(uuid "4b4c2a5c-f53a-427f-af7e-9a6eb6829208")
+		)
+		(pin "5"
+			(uuid "e7a4f242-0441-4c58-b10d-0f8e5ba88565")
+		)
+		(pin "4"
+			(uuid "2cfc9cd2-8a98-4364-abcf-403af83c2fd9")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5111,83 +5923,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "be6e8902-7029-4d90-aa4d-79b43f154170")
+			(uuid "962ae91a-a5d8-4d90-b6ad-e5244f00d2c6")
 		)
 		(pin "1"
-			(uuid "2436874f-042b-4307-8698-9c2950849361")
+			(uuid "f08e6c77-657d-44d1-890e-d712379a6d56")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 107.95 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b15ff779-de59-4fbb-a637-1c5498d07fae")
-		(property "Reference" "J8"
-			(at 107.4304 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 107.4304 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b783efc-c10b-4b66-bb56-0084589a5a91")
-		)
-		(pin "2"
-			(uuid "86e002fc-3d17-4321-816f-b30a12d30ea4")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5249,10 +5993,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c52624e-c604-4942-b699-328bcc0edc38")
+			(uuid "9f2c79bc-fba7-4a3b-bb4d-77f09a5bfd82")
 		)
 		(pin "2"
-			(uuid "90e5aaac-5304-4b6f-9595-75792b8f2d7a")
+			(uuid "5e21d629-225b-4a4d-b470-9fcc7c09b8a1")
 		)
 		(instances
 			(project "huxley"
@@ -5318,12 +6062,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "5f71df12-b919-4f5a-82f2-4eafdf9a6672")
+			(uuid "6469df5c-ea22-482a-9580-8651ad943943")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 95.25 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b492e9-986e-47ae-9487-b62d4994adaf")
+		(property "Reference" "J7"
+			(at 107.4304 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 107.4304 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "131a9eaf-e345-464e-97e4-5b79dc149555")
+		)
+		(pin "3"
+			(uuid "c4375558-7252-4b66-a228-6c141af95243")
+		)
+		(pin "1"
+			(uuid "4dc8b253-1604-4d2d-aea3-c621710a6419")
+		)
+		(pin "5"
+			(uuid "74f05c89-5eb5-4156-a020-9346bce4d95b")
+		)
+		(pin "4"
+			(uuid "7aad9438-bd0c-4e12-8701-5852e9346f33")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5385,15 +6208,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "aeea969e-c6d2-45e0-9575-8889ec4786e7")
+			(uuid "69bd3928-5d17-48f8-88c3-9f3c33322ed6")
 		)
 		(pin "2"
-			(uuid "b3058308-b1ca-4377-9688-0e2e61d5bb69")
+			(uuid "a3b2810b-bd12-4dc4-9fe4-20cf121f50f5")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 95.25 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c324fc97-b110-424a-8c63-3d15970d0067")
+		(property "Reference" "J4"
+			(at 107.4304 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 107.4304 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "faa21335-6543-4c91-8692-c3e34b97538b")
+		)
+		(pin "3"
+			(uuid "748d1d1c-aa52-471f-9a4c-dc260229dd40")
+		)
+		(pin "1"
+			(uuid "30799f4e-8206-478d-b0dc-52f199922d62")
+		)
+		(pin "5"
+			(uuid "c61ef7c9-88b3-4333-9350-06ade3fedc79")
+		)
+		(pin "4"
+			(uuid "0d67a1d9-0779-446e-8169-7f90599f2163")
+		)
+		(instances
+			(project ""
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5454,7 +6356,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "59d40015-7f87-4908-858c-38647e655c4d")
+			(uuid "f5234778-d073-4bf9-bbbd-0772eda5c1c2")
 		)
 		(instances
 			(project "huxley"
@@ -5521,15 +6423,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "826aeac6-99fa-4678-b8a6-6af4c79a10a5")
+			(uuid "41d92ad2-54eb-4f40-a7f1-978d7c433f00")
 		)
 		(pin "2"
-			(uuid "13719191-649f-4e32-a3f4-dead9f8c9553")
+			(uuid "2c07d9fb-dd21-45bb-9cc8-002f9e2c6c5b")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8b3526f-d5e1-4989-bcd2-60d8b09b6f3d")
+		(property "Reference" "#PWR043"
+			(at 170.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b446d12c-ea9d-4519-8ff9-bbc4fb210aac")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5591,10 +6559,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca5feaf0-b8ef-4ec8-9757-c1a397e28e31")
+			(uuid "a15ad707-04e6-4e6d-935c-4d56ed96bfd0")
 		)
 		(pin "2"
-			(uuid "f4f2216b-d6c4-4e63-9daf-01e6690a2b51")
+			(uuid "f330c68b-174e-41b6-82d2-9f010bda6ea0")
 		)
 		(instances
 			(project "huxley"
@@ -5660,7 +6628,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5324a1a3-7db8-40d1-a120-81225589677f")
+			(uuid "64795632-3c87-4275-94df-add3b2d2603c")
 		)
 		(instances
 			(project "huxley"
@@ -5726,12 +6694,249 @@
 			)
 		)
 		(pin "1"
-			(uuid "9ede3e93-93c9-4a90-ad02-0c5d5c19e890")
+			(uuid "4510177f-513a-4f3e-8478-c8451026e419")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 194.31 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a57512-78df-4e14-974f-b6bffb9493ba")
+		(property "Reference" "J13"
+			(at 206.4904 25.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 206.4904 27.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 194.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 194.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f11d75d6-0803-4aaf-87ff-caae3a1a7e0a")
+		)
+		(pin "3"
+			(uuid "221b489d-6ac1-488b-b1f0-51b75dfa2783")
+		)
+		(pin "1"
+			(uuid "e1cbfb8f-ba45-4277-9cdb-a21da8997521")
+		)
+		(pin "5"
+			(uuid "a92c280f-c1c5-47b7-9b47-b2088459eba8")
+		)
+		(pin "4"
+			(uuid "8bdfe2c7-af28-4c5c-b2c7-d76fee006a36")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 149.86 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d29455ea-2665-4be8-a642-ef7f34423579")
+		(property "Reference" "J17"
+			(at 162.0404 147.32 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 162.0404 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bdef81a6-480e-4f82-8d8e-28ebb4c06a56")
+		)
+		(pin "3"
+			(uuid "da93ca1d-3b8a-4152-85c1-0fa3595738b8")
+		)
+		(pin "1"
+			(uuid "c94925b3-fcbb-4936-9b60-ae4cdf52a043")
+		)
+		(pin "5"
+			(uuid "16fd2dac-e1ea-4cad-b928-00fbfbaa9384")
+		)
+		(pin "4"
+			(uuid "952897de-b926-4141-b9c2-6bde1cdd844e")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 149.86 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3a9b61c-82a5-4750-b032-e4f3560a179a")
+		(property "Reference" "J24"
+			(at 158.496 121.412 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 162.0404 119.38 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 149.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 149.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "db707923-2d6a-4f45-9dd3-851d4618f4ab")
+		)
+		(pin "3"
+			(uuid "77ea4309-6e4a-406d-b81d-03d1b1154025")
+		)
+		(pin "1"
+			(uuid "c76dcb53-6855-43c7-bc62-b24e09c104cf")
+		)
+		(pin "5"
+			(uuid "585434ec-68b6-4daf-923f-e2bfb66e2f3d")
+		)
+		(pin "4"
+			(uuid "79cd6304-80cb-47ef-adde-cb13c7ed4fd7")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -5792,12 +6997,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "00ac9320-1e00-4be2-a226-f37ab77e6744")
+			(uuid "9e5bb8cf-677b-4bac-b96b-7d457f0e35b4")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 194.31 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9a28c51-11ab-4ae3-a851-0a7bbf6f6c11")
+		(property "Reference" "J14"
+			(at 202.946 36.322 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 206.4904 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 194.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 194.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6ca45a4c-bd3a-475e-93fd-0f5fd5c28b64")
+		)
+		(pin "3"
+			(uuid "fbf31f08-78a5-48d5-8c0d-aad59425907a")
+		)
+		(pin "1"
+			(uuid "f639375a-ffb4-4f5f-960c-65881559623f")
+		)
+		(pin "5"
+			(uuid "39ca8de4-ef81-4473-9d8a-035a75b861d9")
+		)
+		(pin "4"
+			(uuid "d7bebf6b-7fcf-4965-807d-40b03befa651")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -5859,13 +7143,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "fb60b955-f13c-433b-b938-a4728ec6dcc2")
+			(uuid "ac009e44-f466-449e-ae2f-25dabc2058e5")
 		)
 		(pin "1"
-			(uuid "689b7b3e-bf7d-4e9e-9e99-66299bdd3bb0")
+			(uuid "a6cbfaf6-928d-4b65-b420-7c2da96658d7")
 		)
 		(instances
-			(project ""
+			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "R1")
 					(unit 1)
@@ -5928,7 +7212,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e25b9482-a844-48ff-8af1-f3cafbaf543d")
+			(uuid "ab0bc83e-3a90-4b5c-9333-a187f0171642")
 		)
 		(instances
 			(project "huxley"
@@ -5994,7 +7278,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bfa3885f-02d6-4029-a994-881f7cb1e35b")
+			(uuid "be9aab11-56f7-4077-b9f6-65d2c938dfb1")
 		)
 		(instances
 			(project "huxley"
@@ -6060,7 +7344,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a777b37f-41e5-49e3-bea3-b70874128590")
+			(uuid "829d854a-6901-48b4-bae1-7a8b5c0474d4")
 		)
 		(instances
 			(project "huxley"
@@ -6126,7 +7410,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "49ae2075-ad79-4afe-9d56-f5133b2dfb40")
+			(uuid "363542c1-1475-4a58-9839-317b73bb6995")
 		)
 		(instances
 			(project "huxley"
@@ -6192,7 +7476,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e80410a2-5263-4bd0-ae12-4ceea5d32ebf")
+			(uuid "10b3e8a5-88c3-4243-8c74-9aa67206be33")
 		)
 		(instances
 			(project "huxley"
@@ -6259,151 +7543,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "77e85765-c059-432b-b0fc-81005c4193f6")
+			(uuid "26dea8e8-3bd4-4f51-a2d8-6aec315d2488")
 		)
 		(pin "1"
-			(uuid "93efa487-4f0b-4b7b-ad87-835512841415")
+			(uuid "34572bbf-9eff-4a13-844c-62496fc78fc1")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 107.95 73.66 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eda8be74-479d-4182-a04c-c0dc0dbeef74")
-		(property "Reference" "J9"
-			(at 107.4304 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 107.4304 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 107.95 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77af6e7e-dcb6-4852-906f-1b69875d6e35")
-		)
-		(pin "2"
-			(uuid "2e35a29e-1e07-40e2-bd40-1aaa285be947")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 207.01 38.1 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6a6e3d7-7bbc-43e7-af4c-64a4adf65f30")
-		(property "Reference" "J15"
-			(at 206.4904 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMA"
-			(at 206.4904 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 207.01 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e1c7246-0c4b-4fdf-90d6-c8a1d8dff3e2")
-		)
-		(pin "2"
-			(uuid "18e9f4da-ef0b-4c53-9dbb-ff5110c2d293")
-		)
-		(instances
-			(project "huxley"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
-					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -6464,12 +7612,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "3874509c-d95a-4c4f-b7d0-6a05d3c7a603")
+			(uuid "95a1330e-5900-4265-915d-8aa2daacf820")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 96.52 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fab4398b-5a46-4d75-8e9d-9456a368c3da")
+		(property "Reference" "J10"
+			(at 105.156 108.712 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 108.7004 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 96.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 96.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "791ca239-03ac-4a8a-bb48-39954e011d6e")
+		)
+		(pin "3"
+			(uuid "28358825-0386-45c9-975d-67aeb3b12615")
+		)
+		(pin "1"
+			(uuid "203cabe4-d8a5-4af5-ab52-508253d4eac1")
+		)
+		(pin "5"
+			(uuid "c0f96e84-f54e-4468-88a9-786fd9fc6208")
+		)
+		(pin "4"
+			(uuid "ee7fbd1f-3205-4537-ba9d-2cc422bcb0e5")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6531,15 +7758,95 @@
 			)
 		)
 		(pin "1"
-			(uuid "c41c76fb-60cc-4174-b4d7-3f6e84e78e3e")
+			(uuid "37c6a829-72e0-4bef-8488-5f8f8f3b5e00")
 		)
 		(pin "2"
-			(uuid "85a09ab7-bcdf-41f5-97b7-31039b92bd62")
+			(uuid "2a48e454-e2e6-4601-954e-96adea702c3e")
 		)
 		(instances
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
+		(at 95.25 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff3765a7-f398-4c7b-ae44-78dfd596d2bc")
+		(property "Reference" "J6"
+			(at 103.886 36.322 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SMA_RF2-04A-T-00-50-G"
+			(at 107.4304 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
+			(at 95.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "112404"
+			(at 95.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "56141ae8-90d1-4476-9530-2541e0ef2929")
+		)
+		(pin "3"
+			(uuid "0596d124-b7ff-44f5-80ac-c456231fd2e1")
+		)
+		(pin "1"
+			(uuid "a61c51f3-41ec-4965-8b08-0ec63df34752")
+		)
+		(pin "5"
+			(uuid "a4691df5-1f21-4d08-9390-2eeb0130ac60")
+		)
+		(pin "4"
+			(uuid "18e5d267-371f-42d2-826d-dbf587932d7f")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7c57c744-c249-4038-95bb-f0647f1e1f7f"
+					(reference "J6")
 					(unit 1)
 				)
 			)
