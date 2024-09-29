@@ -317,8 +317,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J4"
-				(at 12.1804 1.27 0)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -326,7 +326,7 @@
 				)
 			)
 			(property "Value" "SMA_RF2-04A-T-00-50-G"
-				(at 12.1804 -1.27 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -360,14 +360,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "112404"
@@ -439,24 +431,6 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 -5.08 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 -5.08 0)
 					(length 1.27)
 					(name ""
@@ -467,6 +441,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3091,7 +3083,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "ebc339bd-cb12-46eb-bc2f-57b935fef5b2")
 		)
 		(pin "3"
@@ -3306,7 +3298,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "ebfbb058-0ab4-4039-8446-7e6812c6ad1c")
 		)
 		(pin "3"
@@ -4275,7 +4267,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c8208e0c-024d-4894-b802-80d6fa91ea8b")
 		)
 		(pin "3"
@@ -4486,7 +4478,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c824bacd-3f36-4cde-8047-212ee186ee0e")
 		)
 		(pin "3"
@@ -4644,7 +4636,7 @@
 	)
 	(symbol
 		(lib_id "_PHASE:SMA_RF2-04A-T-00-50-G")
-		(at 149.86 129.54 0)
+		(at 149.86 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4653,7 +4645,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c329f17-c26a-427d-9b7a-9aa7d63a1d81")
 		(property "Reference" "J19"
-			(at 162.0404 128.27 0)
+			(at 162.0404 127 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4661,7 +4653,7 @@
 			)
 		)
 		(property "Value" "SMA_RF2-04A-T-00-50-G"
-			(at 162.0404 130.81 0)
+			(at 162.0404 129.54 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4669,7 +4661,7 @@
 			)
 		)
 		(property "Footprint" "726_footprints:CONN_RF2-04A-T-00-50-G_ADM"
-			(at 149.86 129.54 0)
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4671,7 @@
 			)
 		)
 		(property "Datasheet" "112404"
-			(at 149.86 129.54 0)
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 129.54 0)
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4689,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "ca3b2d0d-2084-4903-a2aa-22e609a32f9c")
 		)
 		(pin "3"
@@ -5048,7 +5040,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "c713c672-87e5-413a-8b36-1a160018eae0")
 		)
 		(pin "3"
@@ -5127,7 +5119,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "5acf99b2-9af2-4e8e-87f5-be5ca936cb5e")
 		)
 		(pin "3"
@@ -5408,7 +5400,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "d4ec69f2-2b80-446e-8b42-1b925a047d34")
 		)
 		(pin "3"
@@ -5487,7 +5479,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "ad0f1a0e-c083-43bb-8bed-1175dff1b708")
 		)
 		(pin "3"
@@ -5702,7 +5694,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "06259e1d-d5fb-499d-874f-5bd7eb7f478c")
 		)
 		(pin "3"
@@ -5913,7 +5905,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "d0739dbc-65db-4a8d-9718-e66b344fec68")
 		)
 		(pin "3"
@@ -6128,7 +6120,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "131a9eaf-e345-464e-97e4-5b79dc149555")
 		)
 		(pin "3"
@@ -6207,7 +6199,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "faa21335-6543-4c91-8692-c3e34b97538b")
 		)
 		(pin "3"
@@ -6550,7 +6542,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "f11d75d6-0803-4aaf-87ff-caae3a1a7e0a")
 		)
 		(pin "3"
@@ -6629,7 +6621,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "bdef81a6-480e-4f82-8d8e-28ebb4c06a56")
 		)
 		(pin "3"
@@ -6778,7 +6770,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "db707923-2d6a-4f45-9dd3-851d4618f4ab")
 		)
 		(pin "3"
@@ -6923,7 +6915,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "6ca45a4c-bd3a-475e-93fd-0f5fd5c28b64")
 		)
 		(pin "3"
@@ -7608,7 +7600,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "791ca239-03ac-4a8a-bb48-39954e011d6e")
 		)
 		(pin "3"
@@ -7827,7 +7819,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "2"
 			(uuid "56141ae8-90d1-4476-9530-2541e0ef2929")
 		)
 		(pin "3"

@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "67996-130HLF_AMP"
+			(property "Footprint" "726_footprints:30p_connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,14 +55,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "67996-130HLF"
