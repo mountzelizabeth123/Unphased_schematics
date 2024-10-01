@@ -5111,7 +5111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PP_VDDIO_1V8"
+		(property "Value" "PP_TAVDD_1V8"
 			(at 203.962 69.088 0)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PP_VDDIO_1V8"
+		(property "Value" "PP_TAVDD_1V8"
 			(at 215.392 15.748 0)
 			(effects
 				(font
