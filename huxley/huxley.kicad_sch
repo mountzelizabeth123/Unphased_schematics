@@ -5,6 +5,1175 @@
 	(uuid "c6103430-c27a-4e90-8e2e-9404255f5ee3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "0_PHASE:PHASEIC_SOCKET"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "_726_Common:CPG08462"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PHASEIC_SOCKET_1_1"
+				(rectangle
+					(start -13.97 6.35)
+					(end 13.97 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Digital"
+					(at 10.16 -24.638 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 3.81 0)
+					(length 5.08)
+					(name "SPI_CS_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -1.27 0)
+					(length 5.08)
+					(name "SPI_COPI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -19.05 -21.59 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 1.27 0)
+					(length 5.08)
+					(name "SPI_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -1.27 180)
+					(length 5.08)
+					(name "SPI_CIPO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -19.05 -19.05 0)
+					(length 5.08)
+					(name "IO_UCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -6.35 0)
+					(length 5.08)
+					(name "RST_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -13.97 180)
+					(length 5.08)
+					(name "TSCAN_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -13.97 0)
+					(length 5.08)
+					(name "TSCAN_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 -11.43 0)
+					(length 5.08)
+					(name "SCAN_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PHASEIC_SOCKET_2_1"
+				(rectangle
+					(start -13.97 6.35)
+					(end 13.97 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Analog Biasing"
+					(at -5.842 -13.208 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "CS drain probe"
+					(at -1.778 -5.842 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -1.27 0)
+					(length 5.08)
+					(name "vrbias"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -8.89 180)
+					(length 5.08)
+					(name "vbias0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 1.27 180)
+					(length 5.08)
+					(name "vd1_dummy"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -1.27 180)
+					(length 5.08)
+					(name "vlvl_p_dummy"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -11.43 180)
+					(length 5.08)
+					(name "vbias2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 1.27 0)
+					(length 5.08)
+					(name "vbias1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -19.05 3.81 0)
+					(length 5.08)
+					(name "vlvl"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 3.81 180)
+					(length 5.08)
+					(name "iout_dummy"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PHASEIC_SOCKET_3_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -43.18)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Outputs"
+					(at -2.032 -41.656 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 1.27 180)
+					(length 5.08)
+					(name "output_0b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -36.83 180)
+					(length 5.08)
+					(name "output_5b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 3.81 180)
+					(length 5.08)
+					(name "output_0a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -26.67 180)
+					(length 5.08)
+					(name "output_4a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -34.29 180)
+					(length 5.08)
+					(name "output_5a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -19.05 180)
+					(length 5.08)
+					(name "output_3a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -29.21 180)
+					(length 5.08)
+					(name "output_4b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -3.81 180)
+					(length 5.08)
+					(name "output_1a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -6.35 180)
+					(length 5.08)
+					(name "output_1b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -21.59 180)
+					(length 5.08)
+					(name "output_3b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -11.43 180)
+					(length 5.08)
+					(name "output_2a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 -13.97 180)
+					(length 5.08)
+					(name "output_2b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PHASEIC_SOCKET_4_1"
+				(rectangle
+					(start -13.97 6.35)
+					(end 13.97 -13.97)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 5.08) (xy -7.62 5.08) (xy -7.62 -2.54) (xy -8.89 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 0 -5.08) (xy 0 -10.16) (xy -1.27 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "0.9V"
+					(at 7.874 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "1.8V"
+					(at 8.128 -7.366 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "CORE"
+					(at -1.27 2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Digital Power"
+					(at 6.604 -11.938 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "I/O"
+					(at 3.048 -6.096 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -6.35 0)
+					(length 5.08)
+					(name "VDDPST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 3.81 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -8.89 0)
+					(length 5.08)
+					(name "VDDPST_POC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 1.27 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -1.27 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PHASEIC_SOCKET_5_1"
+				(rectangle
+					(start -13.97 6.35)
+					(end 13.97 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -6.35 5.08) (xy -6.35 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1.8V"
+					(at 0.508 1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Analog Power"
+					(at 6.096 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 -1.27 0)
+					(length 5.08)
+					(name "TAVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 3.81 0)
+					(length 5.08)
+					(name "TAVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 1.27 0)
+					(length 5.08)
+					(name "TAVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PHASEIC_SOCKET_6_1"
+				(rectangle
+					(start -13.97 6.35)
+					(end 13.97 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy -3.81 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -3.81 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -2.54) (xy -7.62 -2.54) (xy -7.62 -12.7) (xy -8.89 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 5.08) (xy -7.62 5.08) (xy -7.62 0) (xy -8.89 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Analog side"
+					(at 2.286 -7.874 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Digital side"
+					(at 2.032 2.794 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "GND\n\n"
+					(at 10.668 -15.748 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 1.27 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 3.81 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -3.81 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -6.35 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -11.43 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -8.89 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "_PHASE:NVT2010PW_118"
 			(pin_names
 				(offset 0.254)
@@ -1232,1091 +2401,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "_PHASE:PHASEIC_SOCKET"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -7.62 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "726_Common:CPG08462"
-				(at 0 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at -7.62 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -7.62 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PHASEIC_SOCKET_1_1"
-				(rectangle
-					(start -13.97 6.35)
-					(end 13.97 -26.67)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "Digital"
-					(at 10.16 -24.638 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -6.35 0)
-					(length 2.54)
-					(name "RST_L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -11.43 0)
-					(length 2.54)
-					(name "SCAN_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -1.27 180)
-					(length 2.54)
-					(name "SPI_CIPO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -1.27 0)
-					(length 2.54)
-					(name "SPI_COPI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 1.27 0)
-					(length 2.54)
-					(name "SPI_CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 -13.97 0)
-					(length 2.54)
-					(name "TSCAN_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -13.97 180)
-					(length 2.54)
-					(name "TSCAN_OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "71"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 3.81 0)
-					(length 2.54)
-					(name "SPI_CS_L"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -16.51 -21.59 0)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "80"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -16.51 -19.05 0)
-					(length 2.54)
-					(name "IO_UCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "82"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PHASEIC_SOCKET_2_1"
-				(rectangle
-					(start -13.97 6.35)
-					(end 13.97 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "Analog Biasing"
-					(at -5.842 -13.208 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -11.43 180)
-					(length 2.54)
-					(name "vbias2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -8.89 180)
-					(length 2.54)
-					(name "vbias0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -1.27 0)
-					(length 2.54)
-					(name "vrbias"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 1.27 0)
-					(length 2.54)
-					(name "vbias1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -16.51 3.81 0)
-					(length 2.54)
-					(name "vlvl"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 3.81 180)
-					(length 2.54)
-					(name "iout_dummy"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 -1.27 180)
-					(length 2.54)
-					(name "vlvl_p_dummy"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 16.51 1.27 180)
-					(length 2.54)
-					(name "vd1_dummy"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PHASEIC_SOCKET_3_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -43.18)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "Outputs"
-					(at -2.032 -41.656 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "output_0a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "output_0b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "output_1a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -6.35 180)
-					(length 2.54)
-					(name "output_1b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -11.43 180)
-					(length 2.54)
-					(name "output_2a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -13.97 180)
-					(length 2.54)
-					(name "output_2b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -21.59 180)
-					(length 2.54)
-					(name "output_3b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -19.05 180)
-					(length 2.54)
-					(name "output_3a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -29.21 180)
-					(length 2.54)
-					(name "output_4b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -26.67 180)
-					(length 2.54)
-					(name "output_4a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -36.83 180)
-					(length 2.54)
-					(name "output_5b"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -34.29 180)
-					(length 2.54)
-					(name "output_5a"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PHASEIC_SOCKET_4_1"
-				(rectangle
-					(start -13.97 6.35)
-					(end 13.97 -13.97)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 1.27) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 5.08) (xy -7.62 5.08) (xy -7.62 -2.54) (xy -8.89 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 0 -5.08) (xy 0 -10.16) (xy -1.27 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "1.2V"
-					(at 7.874 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "1.8V"
-					(at 8.128 -7.366 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "Digital Power"
-					(at 6.604 -11.938 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 -6.35 0)
-					(length 2.54)
-					(name "VDDPST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 3.81 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 -1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 -8.89 0)
-					(length 2.54)
-					(name "VDDPST_POC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "83"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PHASEIC_SOCKET_5_1"
-				(rectangle
-					(start -13.97 6.35)
-					(end 13.97 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy -6.35 5.08) (xy -6.35 -2.54) (xy -7.62 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "1.8V"
-					(at 0.508 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "Analog Power"
-					(at 6.096 -3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 3.81 0)
-					(length 2.54)
-					(name "TAVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 1.27 0)
-					(length 2.54)
-					(name "TAVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 -1.27 0)
-					(length 2.54)
-					(name "TAVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PHASEIC_SOCKET_6_1"
-				(rectangle
-					(start -13.97 6.35)
-					(end 13.97 -16.51)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "analog side"
-					(at 2.286 -7.874 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "digital side"
-					(at 2.032 2.794 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "GND\n\n"
-					(at 10.668 -15.748 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -3.81 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -6.35 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -8.89 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 -11.43 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 3.81 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -16.51 1.27 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "74"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4539,7 +4623,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_PHASE:PHASEIC_SOCKET")
+		(lib_id "0_PHASE:PHASEIC_SOCKET")
 		(at 120.65 72.39 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -4564,7 +4648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "726_Common:CPG08462"
+		(property "Footprint" "0_726_footprints:CPG08462_Full"
 			(at 120.65 63.5 0)
 			(effects
 				(font
@@ -4590,136 +4674,136 @@
 				(hide yes)
 			)
 		)
-		(pin "29"
+		(pin "A4"
 			(uuid "e068412f-d215-4c1b-a09e-dd3c4be7b1f5")
 		)
-		(pin "17"
+		(pin "E10"
 			(uuid "d3a46f84-d1f1-4060-ad15-92a1aa8c149c")
 		)
-		(pin "52"
+		(pin "L11"
 			(uuid "aec4a9de-bffe-4ad7-8b53-163729c7871a")
 		)
-		(pin "5"
+		(pin "K1"
 			(uuid "fc66c639-9e98-448c-b367-04a8baaa680a")
 		)
-		(pin "32"
+		(pin "L1"
 			(uuid "c6370e6d-c483-4468-ba2f-a87045991878")
 		)
-		(pin "53"
+		(pin "A3"
 			(uuid "4aeb13e4-71d7-4bc0-9854-c3338aeeaeb2")
 		)
-		(pin "39"
+		(pin "E1"
 			(uuid "90955c81-c143-41cc-85af-1d38bf54df7f")
 		)
-		(pin "70"
+		(pin "D2"
 			(uuid "f0f83b3e-cf89-4bb9-a43f-1a8e4abd59b7")
 		)
-		(pin "16"
+		(pin "B7"
 			(uuid "894b4e8e-5a5e-45bf-9006-73d1e21438eb")
 		)
-		(pin "63"
+		(pin "K9"
 			(uuid "6762c3bd-f618-479f-b5a5-a0cd0fbcd8a5")
 		)
-		(pin "48"
+		(pin "L7"
 			(uuid "1e399e69-a6ff-4e2f-bcc3-f16720ceb41e")
 		)
-		(pin "51"
+		(pin "L6"
 			(uuid "f3803b7a-2f0b-4468-9400-8d812d86ce72")
 		)
-		(pin "11"
+		(pin "G11"
 			(uuid "37df0864-08ee-47cf-a47a-70ce0f12849e")
 		)
-		(pin "6"
+		(pin "A5"
 			(uuid "9e1e8fbe-c65c-4380-b509-0d13edd358cc")
 		)
-		(pin "7"
+		(pin "D1"
 			(uuid "eeeff8bd-0193-44c0-9d29-f6e549a75e0c")
 		)
-		(pin "38"
+		(pin "L10"
 			(uuid "50546c83-69a7-4479-8c39-7ca2762dbbd3")
 		)
-		(pin "25"
+		(pin "F10"
 			(uuid "9b0993f9-8ff2-45d1-a826-73270018cb17")
 		)
-		(pin "61"
+		(pin "A7"
 			(uuid "8c20b7d4-ffe5-489a-bb41-cbdad6d119eb")
 		)
-		(pin "68"
+		(pin "J1"
 			(uuid "4f571dc3-2323-4b6a-90a2-217550729305")
 		)
-		(pin "20"
+		(pin "A1"
 			(uuid "fd8a93d0-7878-4249-9a88-7d0a1f23e24c")
 		)
-		(pin "28"
+		(pin "C11"
 			(uuid "7781c2ee-195a-4414-9efa-06013fa16f91")
 		)
-		(pin "40"
+		(pin "L9"
 			(uuid "48c14faf-1275-4993-976f-5d86b21425b1")
 		)
-		(pin "3"
+		(pin "H1"
 			(uuid "db2c7a47-05d7-41b9-b468-48e274dbde07")
 		)
-		(pin "59"
+		(pin "K5"
 			(uuid "c4bc81d9-2baa-4b4a-8aaa-e3698ebd840c")
 		)
-		(pin "71"
+		(pin "L5"
 			(uuid "bb622209-b24e-4402-9811-e7fae2d46fb6")
 		)
-		(pin "30"
+		(pin "D10"
 			(uuid "f5c01649-171f-4479-b70c-39cbef30590e")
 		)
-		(pin "80"
+		(pin "B5"
 			(uuid "e01f2706-96d8-400f-8ac2-9b0a3cfb304d")
 		)
-		(pin "45"
+		(pin "A8"
 			(uuid "5a644a25-d944-461e-98ed-c4d5bc490788")
 		)
-		(pin "4"
+		(pin "H2"
 			(uuid "622d9418-5c46-4370-8574-9d590d4ad9fe")
 		)
-		(pin "82"
+		(pin "A11"
 			(uuid "8a37e46d-a132-4029-a190-fb00300f763e")
 		)
-		(pin "41"
+		(pin "L8"
 			(uuid "a90245d5-cc9c-4db2-9def-5bfe1460cb15")
 		)
-		(pin "66"
+		(pin "C1"
 			(uuid "dc1f39ff-0ec8-41c5-a05b-86a719d5c855")
 		)
-		(pin "24"
+		(pin "E2"
 			(uuid "123c5802-7353-43a5-90bf-45c1324cdd63")
 		)
-		(pin "69"
+		(pin "D11"
 			(uuid "3de9e402-101d-40d8-a0e0-eccc472a69a2")
 		)
-		(pin "27"
+		(pin "F11"
 			(uuid "528078e8-a496-4b4e-a189-a01e8e82a55b")
 		)
-		(pin "44"
+		(pin "H11"
 			(uuid "14ed80a1-8c51-4b52-9036-6e1e7c1e0c48")
 		)
-		(pin "19"
+		(pin "L4"
 			(uuid "95daced9-8ff9-43d2-9f07-d926e3e58752")
 		)
-		(pin "8"
+		(pin "E11"
 			(uuid "87a170b3-4a8d-48d0-8c6e-6a387133a7e9")
 		)
-		(pin "50"
+		(pin "A6"
 			(uuid "178f76a4-72c7-4e43-a507-6ef17847d853")
 		)
-		(pin "62"
+		(pin "G1"
 			(uuid "deb2c8be-44b3-411a-9473-deb8ca2ea7cd")
 		)
-		(pin "74"
+		(pin "K6"
 			(uuid "4c5de2b7-c0c1-403c-8317-4d7a84396a83")
 		)
-		(pin "83"
+		(pin "B4"
 			(uuid "5f5fd4ac-37f6-4958-a792-3b991bb3b4cb")
 		)
-		(pin "67"
+		(pin "G2"
 			(uuid "43134e7c-139e-40d2-85d7-db901641aee6")
 		)
-		(pin "15"
+		(pin "G10"
 			(uuid "e1c05532-4025-43e9-8dbb-abd56f8c6312")
 		)
 		(instances
@@ -4797,7 +4881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_PHASE:PHASEIC_SOCKET")
+		(lib_id "0_PHASE:PHASEIC_SOCKET")
 		(at 127 40.64 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -4822,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "726_Common:CPG08462"
+		(property "Footprint" "0_726_footprints:CPG08462_Full"
 			(at 127 31.75 0)
 			(effects
 				(font
@@ -4848,136 +4932,136 @@
 				(hide yes)
 			)
 		)
-		(pin "16"
+		(pin "L5"
 			(uuid "e068412f-d215-4c1b-a09e-dd3c4be7b1f7")
 		)
-		(pin "70"
+		(pin "L1"
 			(uuid "d3a46f84-d1f1-4060-ad15-92a1aa8c149e")
 		)
-		(pin "44"
+		(pin "G10"
 			(uuid "aec4a9de-bffe-4ad7-8b53-163729c7871c")
 		)
-		(pin "19"
+		(pin "J1"
 			(uuid "04abdc9f-547f-44fb-9758-fdb9e5514642")
 		)
-		(pin "5"
+		(pin "L4"
 			(uuid "8308b34e-0655-4b1d-92f5-eb43b6d6f647")
 		)
-		(pin "50"
+		(pin "B4"
 			(uuid "4d4a6453-9036-463b-b4b4-b04007c603b9")
 		)
-		(pin "51"
+		(pin "B5"
 			(uuid "5e021475-f154-46f6-8a4e-5da60e835b58")
 		)
-		(pin "80"
+		(pin "L6"
 			(uuid "f0f83b3e-cf89-4bb9-a43f-1a8e4abd59b9")
 		)
-		(pin "41"
+		(pin "H11"
 			(uuid "ca05c331-7993-4e9b-ba47-a89db66c7dd8")
 		)
-		(pin "27"
+		(pin "L11"
 			(uuid "d35754d3-dfff-4a77-b5e0-7c5aaa594cdf")
 		)
-		(pin "74"
+		(pin "K6"
 			(uuid "9491e74c-1935-40f2-bc79-65334b4e3278")
 		)
-		(pin "7"
+		(pin "H2"
 			(uuid "5ad121d0-2916-42ef-8ac5-2719ac5b5817")
 		)
-		(pin "17"
+		(pin "F11"
 			(uuid "51c22b88-65f3-4936-8884-40d9546a7bf4")
 		)
-		(pin "8"
+		(pin "F10"
 			(uuid "9e1e8fbe-c65c-4380-b509-0d13edd358ce")
 		)
-		(pin "71"
+		(pin "H1"
 			(uuid "eeeff8bd-0193-44c0-9d29-f6e549a75e0e")
 		)
-		(pin "15"
+		(pin "G11"
 			(uuid "50546c83-69a7-4479-8c39-7ca2762dbbd5")
 		)
-		(pin "40"
+		(pin "D1"
 			(uuid "840ef2a5-40f0-41d5-ade1-876fd80728d4")
 		)
-		(pin "4"
+		(pin "L7"
 			(uuid "adcd4ff4-560a-42e9-ad56-3d8a24f01177")
 		)
-		(pin "38"
+		(pin "E11"
 			(uuid "4f571dc3-2323-4b6a-90a2-217550729307")
 		)
-		(pin "62"
+		(pin "K1"
 			(uuid "fd8a93d0-7878-4249-9a88-7d0a1f23e24e")
 		)
-		(pin "52"
+		(pin "L8"
 			(uuid "b0c64c45-7477-4e8f-b293-f1b2f597ea03")
 		)
-		(pin "82"
+		(pin "G1"
 			(uuid "48c14faf-1275-4993-976f-5d86b21425b3")
 		)
-		(pin "20"
+		(pin "D11"
 			(uuid "47a912ae-cc75-4655-991f-c32dab59c43a")
 		)
-		(pin "39"
+		(pin "A4"
 			(uuid "39f019f7-9642-4b20-88a6-1a5f077efa3d")
 		)
-		(pin "25"
+		(pin "A1"
 			(uuid "94e9f4b4-fe65-4f63-9598-a7216cb2a059")
 		)
-		(pin "53"
+		(pin "A11"
 			(uuid "17b3a321-0bd4-4a53-b53e-f588fed763b0")
 		)
-		(pin "24"
+		(pin "A5"
 			(uuid "e01f2706-96d8-400f-8ac2-9b0a3cfb304f")
 		)
-		(pin "6"
+		(pin "G2"
 			(uuid "5a644a25-d944-461e-98ed-c4d5bc49078a")
 		)
-		(pin "83"
+		(pin "A7"
 			(uuid "622d9418-5c46-4370-8574-9d590d4ada00")
 		)
-		(pin "29"
+		(pin "L10"
 			(uuid "8a37e46d-a132-4029-a190-fb00300f7640")
 		)
-		(pin "28"
+		(pin "K9"
 			(uuid "a90245d5-cc9c-4db2-9def-5bfe1460cb17")
 		)
-		(pin "48"
+		(pin "E1"
 			(uuid "94f0d3e1-8c22-450f-9e96-81dd4713b99a")
 		)
-		(pin "69"
+		(pin "E2"
 			(uuid "5b1335d1-3711-4615-998e-bd9307ebf914")
 		)
-		(pin "66"
+		(pin "D2"
 			(uuid "3de9e402-101d-40d8-a0e0-eccc472a69a4")
 		)
-		(pin "11"
+		(pin "K5"
 			(uuid "528078e8-a496-4b4e-a189-a01e8e82a55d")
 		)
-		(pin "32"
+		(pin "D10"
 			(uuid "7de1d127-d1ca-4f0d-8181-10a55a137dcf")
 		)
-		(pin "59"
+		(pin "C1"
 			(uuid "95daced9-8ff9-43d2-9f07-d926e3e58754")
 		)
-		(pin "68"
+		(pin "A8"
 			(uuid "87a170b3-4a8d-48d0-8c6e-6a387133a7eb")
 		)
-		(pin "45"
+		(pin "A6"
 			(uuid "178f76a4-72c7-4e43-a507-6ef17847d855")
 		)
-		(pin "67"
+		(pin "A3"
 			(uuid "deb2c8be-44b3-411a-9473-deb8ca2ea7cf")
 		)
-		(pin "30"
+		(pin "B7"
 			(uuid "2097365a-81ed-4727-9911-a493fe3b48d7")
 		)
-		(pin "61"
+		(pin "L9"
 			(uuid "5f5fd4ac-37f6-4958-a792-3b991bb3b4cd")
 		)
-		(pin "3"
+		(pin "C11"
 			(uuid "43134e7c-139e-40d2-85d7-db901641aee8")
 		)
-		(pin "63"
+		(pin "E10"
 			(uuid "e1c05532-4025-43e9-8dbb-abd56f8c6314")
 		)
 		(instances
@@ -4990,7 +5074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "_PHASE:PHASEIC_SOCKET")
+		(lib_id "0_PHASE:PHASEIC_SOCKET")
 		(at 59.69 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5015,7 +5099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "726_Common:CPG08462"
+		(property "Footprint" "0_726_footprints:CPG08462_Full"
 			(at 59.69 30.48 0)
 			(effects
 				(font
@@ -5041,136 +5125,136 @@
 				(hide yes)
 			)
 		)
-		(pin "16"
+		(pin "A8"
 			(uuid "e068412f-d215-4c1b-a09e-dd3c4be7b1f9")
 		)
-		(pin "8"
+		(pin "D1"
 			(uuid "d3a46f84-d1f1-4060-ad15-92a1aa8c14a0")
 		)
-		(pin "38"
+		(pin "A1"
 			(uuid "46c04c1f-84fc-41e9-af65-da4cfbd1e4fb")
 		)
-		(pin "71"
+		(pin "L1"
 			(uuid "fc66c639-9e98-448c-b367-04a8baaa680e")
 		)
-		(pin "80"
+		(pin "L4"
 			(uuid "c6370e6d-c483-4468-ba2f-a8704599187c")
 		)
-		(pin "44"
+		(pin "A3"
 			(uuid "4aeb13e4-71d7-4bc0-9854-c3338aeeaeb6")
 		)
-		(pin "15"
+		(pin "H11"
 			(uuid "5e021475-f154-46f6-8a4e-5da60e835b5a")
 		)
-		(pin "4"
+		(pin "D10"
 			(uuid "d9a53c0a-0592-4f4f-9c8e-f0e257146051")
 		)
-		(pin "39"
+		(pin "H2"
 			(uuid "894b4e8e-5a5e-45bf-9006-73d1e21438ef")
 		)
-		(pin "5"
+		(pin "D2"
 			(uuid "d35754d3-dfff-4a77-b5e0-7c5aaa594ce1")
 		)
-		(pin "41"
+		(pin "G11"
 			(uuid "9491e74c-1935-40f2-bc79-65334b4e327a")
 		)
-		(pin "50"
+		(pin "F11"
 			(uuid "5ad121d0-2916-42ef-8ac5-2719ac5b5819")
 		)
-		(pin "70"
+		(pin "D11"
 			(uuid "51c22b88-65f3-4936-8884-40d9546a7bf6")
 		)
-		(pin "68"
+		(pin "C1"
 			(uuid "9e1e8fbe-c65c-4380-b509-0d13edd358d0")
 		)
-		(pin "3"
+		(pin "G10"
 			(uuid "eeeff8bd-0193-44c0-9d29-f6e549a75e10")
 		)
-		(pin "32"
+		(pin "C11"
 			(uuid "50546c83-69a7-4479-8c39-7ca2762dbbd7")
 		)
-		(pin "82"
+		(pin "L10"
 			(uuid "840ef2a5-40f0-41d5-ade1-876fd80728d6")
 		)
-		(pin "25"
+		(pin "L6"
 			(uuid "adcd4ff4-560a-42e9-ad56-3d8a24f01179")
 		)
-		(pin "69"
+		(pin "H1"
 			(uuid "4f571dc3-2323-4b6a-90a2-217550729309")
 		)
-		(pin "7"
+		(pin "A5"
 			(uuid "fd8a93d0-7878-4249-9a88-7d0a1f23e250")
 		)
-		(pin "62"
+		(pin "K9"
 			(uuid "b0c64c45-7477-4e8f-b293-f1b2f597ea05")
 		)
-		(pin "45"
+		(pin "K5"
 			(uuid "48c14faf-1275-4993-976f-5d86b21425b5")
 		)
-		(pin "83"
+		(pin "L7"
 			(uuid "47a912ae-cc75-4655-991f-c32dab59c43c")
 		)
-		(pin "53"
+		(pin "E2"
 			(uuid "39f019f7-9642-4b20-88a6-1a5f077efa3f")
 		)
-		(pin "20"
+		(pin "B4"
 			(uuid "94e9f4b4-fe65-4f63-9598-a7216cb2a05b")
 		)
-		(pin "11"
+		(pin "L5"
 			(uuid "17b3a321-0bd4-4a53-b53e-f588fed763b2")
 		)
-		(pin "40"
+		(pin "B5"
 			(uuid "22dcf274-9f83-49f8-a45c-0828971c1035")
 		)
-		(pin "66"
+		(pin "B7"
 			(uuid "5a644a25-d944-461e-98ed-c4d5bc49078c")
 		)
-		(pin "27"
+		(pin "A7"
 			(uuid "622d9418-5c46-4370-8574-9d590d4ada02")
 		)
-		(pin "63"
+		(pin "K1"
 			(uuid "8a37e46d-a132-4029-a190-fb00300f7642")
 		)
-		(pin "28"
+		(pin "K6"
 			(uuid "a90245d5-cc9c-4db2-9def-5bfe1460cb19")
 		)
-		(pin "30"
+		(pin "F10"
 			(uuid "dc1f39ff-0ec8-41c5-a05b-86a719d5c859")
 		)
-		(pin "19"
+		(pin "E10"
 			(uuid "123c5802-7353-43a5-90bf-45c1324cdd67")
 		)
-		(pin "24"
+		(pin "E11"
 			(uuid "da091cf9-41a4-48cc-8b7a-40c8b9bf9291")
 		)
-		(pin "48"
+		(pin "L8"
 			(uuid "62ccd50d-ccdb-4dda-9dce-0d8f8218ee4b")
 		)
-		(pin "51"
+		(pin "A4"
 			(uuid "14ed80a1-8c51-4b52-9036-6e1e7c1e0c4c")
 		)
-		(pin "17"
+		(pin "J1"
 			(uuid "dd133c36-6031-401f-a9f0-92b01a52cb6e")
 		)
-		(pin "59"
+		(pin "G1"
 			(uuid "ab3fb4b7-aa61-48c6-bd41-5c244ab59339")
 		)
-		(pin "67"
+		(pin "A11"
 			(uuid "d39fab8f-7159-469e-a7a0-3b892792ff1c")
 		)
-		(pin "52"
+		(pin "L11"
 			(uuid "45855104-47ea-40df-ad85-3589656b3b24")
 		)
-		(pin "6"
+		(pin "A6"
 			(uuid "4c5de2b7-c0c1-403c-8317-4d7a84396a87")
 		)
-		(pin "29"
+		(pin "L9"
 			(uuid "fd14e62c-73ec-485b-ac79-a474e7b66799")
 		)
-		(pin "74"
+		(pin "G2"
 			(uuid "43134e7c-139e-40d2-85d7-db901641aeea")
 		)
-		(pin "61"
+		(pin "E1"
 			(uuid "e1c05532-4025-43e9-8dbb-abd56f8c6316")
 		)
 		(instances
