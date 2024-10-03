@@ -3784,7 +3784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 200.66 82.55 0)
 			(effects
 				(font
@@ -4288,7 +4288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.85 27.94 0)
 			(effects
 				(font
@@ -4896,7 +4896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.69 82.55 0)
 			(effects
 				(font
@@ -5105,7 +5105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 210.82 27.94 0)
 			(effects
 				(font
@@ -5297,7 +5297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PP_TAVDD_1V8"
+		(property "Value" "+3.3V"
 			(at 203.962 69.088 0)
 			(effects
 				(font
