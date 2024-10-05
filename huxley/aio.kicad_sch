@@ -3196,6 +3196,36 @@
 		)
 		(uuid "f954f5f4-909f-41f5-ae61-c94b88dea099")
 	)
+	(text "Analog Measurement SMA Connectors"
+		(exclude_from_sim no)
+		(at 154.94 102.616 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0f0d8b48-80be-4fc7-abbc-cb8c2b68d63c")
+	)
+	(text "Bias Decap\n"
+		(exclude_from_sim no)
+		(at 236.728 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a9f6789-f244-4f84-8429-4019ba385d90")
+	)
+	(text "Bias Banana Jack Input"
+		(exclude_from_sim no)
+		(at 192.786 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aeeea9e8-3e14-4c66-b05c-44b895333c30")
+	)
 	(global_label "output_3a"
 		(shape input)
 		(at 40.64 139.7 180)

@@ -1729,7 +1729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "PP_SYS_3V3"
 			(at 175.26 71.12 0)
 			(effects
 				(font

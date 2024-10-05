@@ -3623,6 +3623,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 83.82) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70cd3ad2-23fa-43a5-ab23-46d571611a9d")
+	)
+	(wire
+		(pts
 			(xy 139.7 71.12) (xy 142.24 71.12)
 		)
 		(stroke
@@ -3995,6 +4005,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LVLS_EN"
+		(shape input)
+		(at 139.7 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db9809f4-41a1-41af-b468-0e70a9bd7e60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
