@@ -3902,7 +3902,7 @@
 		)
 		(uuid "aeeea9e8-3e14-4c66-b05c-44b895333c30")
 	)
-	(global_label "output_3a"
+	(global_label "output_3+"
 		(shape input)
 		(at 35.56 139.7 180)
 		(effects
@@ -3944,7 +3944,7 @@
 			)
 		)
 	)
-	(global_label "output_4b"
+	(global_label "output_4-"
 		(shape input)
 		(at 176.53 38.1 180)
 		(effects
@@ -3984,7 +3984,7 @@
 			)
 		)
 	)
-	(global_label "output_5b"
+	(global_label "output_5-"
 		(shape input)
 		(at 175.26 73.66 180)
 		(effects
@@ -4004,7 +4004,7 @@
 			)
 		)
 	)
-	(global_label "output_1a"
+	(global_label "output_1+"
 		(shape input)
 		(at 34.29 67.31 180)
 		(effects
@@ -4045,7 +4045,7 @@
 			)
 		)
 	)
-	(global_label "output_0b"
+	(global_label "output_0-"
 		(shape input)
 		(at 77.47 38.1 180)
 		(effects
@@ -4105,7 +4105,7 @@
 			)
 		)
 	)
-	(global_label "output_0a"
+	(global_label "output_0+"
 		(shape input)
 		(at 31.75 31.75 180)
 		(effects
@@ -4146,7 +4146,7 @@
 			)
 		)
 	)
-	(global_label "output_1b"
+	(global_label "output_1-"
 		(shape input)
 		(at 77.47 73.66 180)
 		(effects
@@ -4166,7 +4166,7 @@
 			)
 		)
 	)
-	(global_label "output_2b"
+	(global_label "output_2-"
 		(shape input)
 		(at 78.74 110.49 180)
 		(effects
@@ -4186,7 +4186,7 @@
 			)
 		)
 	)
-	(global_label "output_5a"
+	(global_label "output_5+"
 		(shape input)
 		(at 132.08 67.31 180)
 		(effects
@@ -4207,7 +4207,7 @@
 			)
 		)
 	)
-	(global_label "output_4a"
+	(global_label "output_4+"
 		(shape input)
 		(at 133.35 31.75 180)
 		(effects
@@ -4228,7 +4228,7 @@
 			)
 		)
 	)
-	(global_label "output_3b"
+	(global_label "output_3-"
 		(shape input)
 		(at 78.74 146.05 180)
 		(effects
@@ -4268,7 +4268,7 @@
 			)
 		)
 	)
-	(global_label "output_2a"
+	(global_label "output_2+"
 		(shape input)
 		(at 35.56 104.14 180)
 		(effects
