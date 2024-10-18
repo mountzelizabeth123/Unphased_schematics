@@ -3874,7 +3874,7 @@
 	)
 	(text "Analog Measurement SMA Connectors"
 		(exclude_from_sim no)
-		(at 171.45 102.616 0)
+		(at 171.45 101.092 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3901,6 +3901,16 @@
 			)
 		)
 		(uuid "aeeea9e8-3e14-4c66-b05c-44b895333c30")
+	)
+	(text "For DC measurement???"
+		(exclude_from_sim no)
+		(at 171.45 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd24ad10-c67f-4186-8606-02112137cead")
 	)
 	(global_label "output_3+"
 		(shape input)
