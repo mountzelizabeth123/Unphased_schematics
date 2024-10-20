@@ -2633,6 +2633,26 @@
 		)
 		(uuid "b0d31220-68d8-4c07-a653-b8c3121b0706")
 	)
+	(text "note swap here"
+		(exclude_from_sim no)
+		(at 194.818 80.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4875b73-339b-4f59-902b-6d7f81f317e9")
+	)
+	(text "note swap here"
+		(exclude_from_sim no)
+		(at 195.072 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c85fb785-390d-4a92-bb90-47fa6a336465")
+	)
 	(label "ibias_rset"
 		(at 200.66 49.53 0)
 		(fields_autoplaced yes)
@@ -2743,7 +2763,7 @@
 		)
 		(uuid "643f3696-417d-4ff6-b717-76161935cd8e")
 	)
-	(label "R2_2"
+	(label "R2_4"
 		(at 256.54 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2776,7 +2796,7 @@
 		)
 		(uuid "a08c366b-f93d-4b59-b25e-92c470170fda")
 	)
-	(label "R2_4"
+	(label "R2_2"
 		(at 256.54 116.84 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2786,6 +2806,17 @@
 			(justify left bottom)
 		)
 		(uuid "a4c41807-90a5-4554-be26-793d02942e2f")
+	)
+	(label "ibias_m"
+		(at 45.72 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b536c72b-b197-46a8-aa94-60915b6d7400")
 	)
 	(label "ibias_rset"
 		(at 200.66 106.68 0)
@@ -2820,7 +2851,7 @@
 		)
 		(uuid "f8c72c85-6c55-4f7c-a09f-fb6c688fb733")
 	)
-	(label "R1_4"
+	(label "R1_2"
 		(at 256.54 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2831,7 +2862,7 @@
 		)
 		(uuid "f9f515ec-8bb4-42c0-9d68-ef8e4a32479f")
 	)
-	(label "R1_2"
+	(label "R1_4"
 		(at 256.54 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2842,7 +2873,7 @@
 		)
 		(uuid "ff12feaa-39c9-41ae-ad1e-0527c6e2b04b")
 	)
-	(global_label "IBIAS_SEL4"
+	(global_label "IBIAS_SEL2"
 		(shape input)
 		(at 200.66 134.62 180)
 		(fields_autoplaced yes)
@@ -2886,7 +2917,7 @@
 			)
 		)
 	)
-	(global_label "IBIAS_SEL4"
+	(global_label "IBIAS_SEL2"
 		(shape input)
 		(at 200.66 77.47 180)
 		(fields_autoplaced yes)
@@ -2930,7 +2961,7 @@
 			)
 		)
 	)
-	(global_label "IBIAS_SEL2"
+	(global_label "IBIAS_SEL4"
 		(shape input)
 		(at 200.66 129.54 180)
 		(fields_autoplaced yes)
@@ -2994,7 +3025,7 @@
 			)
 		)
 	)
-	(global_label "IBIAS_SEL2"
+	(global_label "IBIAS_SEL4"
 		(shape input)
 		(at 200.66 72.39 180)
 		(fields_autoplaced yes)
