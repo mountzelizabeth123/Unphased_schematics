@@ -1261,28 +1261,6 @@
 		)
 		(uuid "f34e3d3d-c3d7-4160-a59d-fd5b3efa5ead")
 	)
-	(global_label "IBIAS_SEL1"
-		(shape output)
-		(at 76.2 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0468387d-9c84-434e-921a-b00372fbcbf9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.8734 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI_COPI_3V3"
 		(shape output)
 		(at 101.6 69.85 0)
@@ -1299,6 +1277,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IBIAS_SEL4"
+		(shape output)
+		(at 101.6 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d838507-990c-4919-86c9-d4a9f2743464")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.9266 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1403,28 +1403,6 @@
 			)
 		)
 	)
-	(global_label "IBIAS_SEL2"
-		(shape output)
-		(at 101.6 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6dcc7411-996b-40d4-afb1-f76e55d1208b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9266 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RST_L_3V3"
 		(shape output)
 		(at 76.2 74.93 180)
@@ -1505,29 +1483,7 @@
 			)
 		)
 	)
-	(global_label "IBIAS_SEL3"
-		(shape output)
-		(at 76.2 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8d3c8e73-a95a-4bd3-ba1c-4c4c3e151ae8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.8734 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IBIAS_SEL4"
+	(global_label "IBIAS_SEL2"
 		(shape output)
 		(at 101.6 80.01 0)
 		(fields_autoplaced yes)
@@ -1537,7 +1493,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9c77c88d-e494-4d8a-825d-fd87379712f7")
+		(uuid "9976a64b-c716-4718-ae47-69d33988a39b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.9266 80.01 0)
 			(effects
@@ -1545,6 +1501,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IBIAS_SEL3"
+		(shape output)
+		(at 76.2 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb727505-f5f7-4095-8581-984b5f5ebb4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.8734 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IBIAS_SEL1"
+		(shape output)
+		(at 76.2 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebbf1628-2166-487c-8bb0-a2bf9e6cae8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.8734 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
