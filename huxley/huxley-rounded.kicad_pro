@@ -447,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "huxley.kicad_pro",
+    "filename": "huxley-rounded.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -584,7 +584,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "huxley-output/",
+      "plot": "huxley-rounded-output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
