@@ -585,7 +585,7 @@
       "idf": "",
       "netlist": "",
       "plot": "huxley-rounded-output/",
-      "pos_files": "",
+      "pos_files": "huxley-output/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

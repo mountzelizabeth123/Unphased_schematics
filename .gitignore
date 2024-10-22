@@ -26,7 +26,10 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv
+#*.csv
 
 # Mac extra
 *.DS_Store
+
+# Lock files
+*.lck
