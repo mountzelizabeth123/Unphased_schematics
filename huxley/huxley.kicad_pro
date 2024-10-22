@@ -584,7 +584,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "huxley-output/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
