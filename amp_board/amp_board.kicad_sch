@@ -1,0 +1,326 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c6103430-c27a-4e90-8e2e-9404255f5ee3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 118.11 43.18)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "013849df-f664-4c3f-8a22-89c3bdf3a4a2")
+		(property "Sheetname" "amp_3"
+			(at 118.11 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp_3.kicad_sch"
+			(at 118.11 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amp_board"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 43.18)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4b870615-1fdd-4c38-ae2a-ce2f07b58b57")
+		(property "Sheetname" "amp_0"
+			(at 93.98 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp0.kicad_sch"
+			(at 93.98 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amp_board"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 52.07)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c3242f0-02f0-4547-b8f4-08dc5d211b77")
+		(property "Sheetname" "amp_4"
+			(at 118.11 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp_4.kicad_sch"
+			(at 118.11 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amp_board"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 53.34)
+		(size 21.59 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c57c744-c249-4038-95bb-f0647f1e1f7f")
+		(property "Sheetname" "Analog IO"
+			(at 63.5 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "aio.kicad_sch"
+			(at 63.5 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amp_board"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 43.18)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ab3d06fa-a7a0-4394-b6d7-1ca538756c6f")
+		(property "Sheetname" "Board Power"
+			(at 31.75 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boardPower.kicad_sch"
+			(at 31.75 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amp_board"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 60.96)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf7ddb99-4ffd-4ec4-a827-5a3086b77c1d")
+		(property "Sheetname" "amp_2"
+			(at 93.98 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp_2.kicad_sch"
+			(at 93.98 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amp_board"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 52.07)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c658809c-d41a-4a1f-a2b1-11f6405bec3a")
+		(property "Sheetname" "amp_1"
+			(at 93.98 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp_1.kicad_sch"
+			(at 93.98 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "amp_board"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 60.96)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed6ae40c-87e1-4c3f-ba58-a7a20fc27bfb")
+		(property "Sheetname" "amp_5"
+			(at 118.11 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "amp_5.kicad_sch"
+			(at 118.11 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "amp_board"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
