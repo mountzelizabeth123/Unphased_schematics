@@ -6044,7 +6044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_726_Common:CPG08462"
+		(property "Footprint" "0_726_footprints:CPG08462_Full"
 			(at 218.44 67.31 0)
 			(effects
 				(font

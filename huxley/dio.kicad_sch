@@ -722,6 +722,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+1V2"
 			(power)
 			(pin_numbers hide)
@@ -958,16 +1079,8 @@
 		(uuid "d6f815fc-529d-420a-9fed-b3be424ec910")
 	)
 	(no_connect
-		(at 180.34 68.58)
-		(uuid "3636f17e-669e-4a38-aeb6-e351b4b0378b")
-	)
-	(no_connect
 		(at 180.34 80.01)
 		(uuid "4aef0eaa-9ea9-44a9-8659-fd09872b34cb")
-	)
-	(no_connect
-		(at 180.34 73.66)
-		(uuid "83998620-74b5-4f61-a6dc-db7d6464a404")
 	)
 	(no_connect
 		(at 180.34 82.55)
@@ -989,18 +1102,6 @@
 		(at 78.74 82.55)
 		(uuid "bbbaf2c0-a049-49dd-8f8f-abe8c0752054")
 	)
-	(no_connect
-		(at 180.34 76.2)
-		(uuid "c9b213c8-5730-4360-8be4-b344b5ca49fc")
-	)
-	(no_connect
-		(at 180.34 66.04)
-		(uuid "ca80b278-43d5-4f2e-80a0-f1be374627d5")
-	)
-	(no_connect
-		(at 180.34 97.79)
-		(uuid "e3035610-02fa-4cdf-aabb-789c39cae225")
-	)
 	(wire
 		(pts
 			(xy 76.2 69.85) (xy 78.74 69.85)
@@ -1013,6 +1114,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044c239b-2d75-4ec5-b89e-45009b443386")
+	)
+	(wire
+		(pts
 			(xy 77.47 134.62) (xy 77.47 137.16)
 		)
 		(stroke
@@ -1020,6 +1131,16 @@
 			(type default)
 		)
 		(uuid "170fd866-fb9f-4c0a-afe7-c40043f46bba")
+	)
+	(wire
+		(pts
+			(xy 177.8 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24205b23-4a1b-419e-afd4-1aa16324f9eb")
 	)
 	(wire
 		(pts
@@ -1070,6 +1191,16 @@
 			(type default)
 		)
 		(uuid "51230d97-5b39-4609-be1b-7ab10e3d6fe4")
+	)
+	(wire
+		(pts
+			(xy 177.8 66.04) (xy 180.34 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bf66ea-be18-4493-86c5-f0c938d4bd66")
 	)
 	(wire
 		(pts
@@ -1133,6 +1264,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 73.66) (xy 180.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e51042-d2e5-44e3-b1ec-08ed39f08654")
+	)
+	(wire
+		(pts
 			(xy 76.2 77.47) (xy 78.74 77.47)
 		)
 		(stroke
@@ -1193,6 +1334,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 76.2) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6192140-24ef-4777-ac84-4c01b4a24cec")
+	)
+	(wire
+		(pts
 			(xy 101.6 74.93) (xy 99.06 74.93)
 		)
 		(stroke
@@ -1230,6 +1381,16 @@
 			(type default)
 		)
 		(uuid "d0e04bb2-5a9c-4412-9d3e-bb455544beb3")
+	)
+	(wire
+		(pts
+			(xy 172.72 97.79) (xy 180.34 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5b9610-bf59-4418-a0d9-2dbf6b960db9")
 	)
 	(text "Analog Discovery 30p Connector\n\n"
 		(exclude_from_sim no)
@@ -1483,6 +1644,50 @@
 			)
 		)
 	)
+	(global_label "CLK"
+		(shape input)
+		(at 160.02 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b6b45de-909a-455c-a783-8c1726c0ddd5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.4667 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scope_ch1+"
+		(shape input)
+		(at 177.8 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c93b61d-ee41-474f-a688-607eae8c5f4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3244 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IBIAS_SEL2"
 		(shape output)
 		(at 101.6 80.01 0)
@@ -1505,6 +1710,28 @@
 			)
 		)
 	)
+	(global_label "scope_ch1-"
+		(shape input)
+		(at 177.8 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5ae5d9c-4193-497d-a1ec-8832f930dcc5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3244 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IBIAS_SEL3"
 		(shape output)
 		(at 76.2 77.47 180)
@@ -1518,6 +1745,50 @@
 		(uuid "cb727505-f5f7-4095-8581-984b5f5ebb4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 62.8734 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scope_ch2+"
+		(shape input)
+		(at 177.8 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce2d4a16-6c7f-4b09-ac78-0b81efcf1522")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3244 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "scope_ch2-"
+		(shape input)
+		(at 177.8 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4ee301f-c35b-4f44-9a78-0e1ad879c473")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3244 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,6 +1880,74 @@
 			(project "huxley"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7cec0b79-e39e-4de3-8e85-24df4d89a11b"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 168.91 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "50cd3645-b0f8-4ee8-8089-379fef573ea5")
+		(property "Reference" "R32"
+			(at 168.91 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 168.91 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.91 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3e22e12-f728-4c6e-8db1-5be06cb2572c")
+		)
+		(pin "1"
+			(uuid "5b031556-8971-4019-b74c-eaa8bb2552ff")
+		)
+		(instances
+			(project "huxley"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/7cec0b79-e39e-4de3-8e85-24df4d89a11b"
+					(reference "R32")
 					(unit 1)
 				)
 			)

@@ -576,6 +576,10 @@
       {
         "netclass": "output12",
         "pattern": "output*"
+      },
+      {
+        "netclass": "pwr_analog",
+        "pattern": "vlvl"
       }
     ]
   },
