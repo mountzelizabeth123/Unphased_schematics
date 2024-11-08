@@ -131,7 +131,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "huxley-output/")
+			(outputdirectory "huxley-rounded-output/")
 		)
 	)
 	(net 0 "")
