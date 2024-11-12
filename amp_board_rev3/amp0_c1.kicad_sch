@@ -2067,6 +2067,12 @@
 		(uuid "5e9dfa49-429c-4123-bac6-4563045ec482")
 	)
 	(junction
+		(at 182.88 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61ef5cf2-e922-46c1-be04-9c7a57a45b38")
+	)
+	(junction
 		(at 219.71 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2163,6 +2169,16 @@
 			(type default)
 		)
 		(uuid "13050648-63dd-4667-a2f8-f580dd4113ec")
+	)
+	(wire
+		(pts
+			(xy 185.42 93.98) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b48017-76fc-45f7-845d-27d6289a53a9")
 	)
 	(wire
 		(pts
@@ -2403,6 +2419,16 @@
 			(type default)
 		)
 		(uuid "424a5696-d07b-4c80-a902-47306fe13a71")
+	)
+	(wire
+		(pts
+			(xy 182.88 95.25) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfca25f-f432-4edc-997a-af9a0604d1f6")
 	)
 	(wire
 		(pts
@@ -2683,6 +2709,16 @@
 			(type default)
 		)
 		(uuid "7a5dc401-865c-4b17-ab20-258d4ec0bd83")
+	)
+	(wire
+		(pts
+			(xy 182.88 93.98) (xy 182.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b671c96-3eca-42e6-96f0-451b3457325a")
 	)
 	(wire
 		(pts
@@ -5920,7 +5956,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 95.25 0)
+		(at 182.88 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5929,7 +5965,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c7775a1-844b-4da9-a62f-19c04473999a")
 		(property "Reference" "#PWR033"
-			(at 182.88 101.6 0)
+			(at 182.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5974,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 100.33 0)
+			(at 182.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +5982,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 95.25 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +5991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 95.25 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +6000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 95.25 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
