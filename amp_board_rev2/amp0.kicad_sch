@@ -2038,6 +2038,12 @@
 		)
 	)
 	(junction
+		(at 261.62 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "049cc642-bee6-49ce-9ac9-8b8f130538b3")
+	)
+	(junction
 		(at 204.47 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2104,6 +2110,18 @@
 		(uuid "7c25b689-d22f-4688-b4eb-c940ee891171")
 	)
 	(junction
+		(at 269.24 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c9bf1fc-0ffa-4e7d-a10b-c76481962541")
+	)
+	(junction
+		(at 269.24 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "810ac6cd-5598-47fa-b5c1-4d5c684c8dd9")
+	)
+	(junction
 		(at 77.47 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2126,6 +2144,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7e71e2a-139d-4a42-bf73-a7b30242305c")
+	)
+	(junction
+		(at 261.62 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeb2e746-6e0f-4ef2-9c6d-35a3f38a6ec3")
 	)
 	(wire
 		(pts
@@ -2269,6 +2293,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 31.75) (xy 269.24 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e42a0c3-2005-40bb-b92c-c12e8a5917ae")
+	)
+	(wire
+		(pts
 			(xy 35.56 110.49) (xy 58.42 110.49)
 		)
 		(stroke
@@ -2369,6 +2403,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 26.67) (xy 261.62 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ffd3a8-3a4c-4b92-8a69-4da2c1e8a43f")
+	)
+	(wire
+		(pts
 			(xy 213.36 19.05) (xy 241.3 19.05)
 		)
 		(stroke
@@ -2436,6 +2480,16 @@
 			(type default)
 		)
 		(uuid "61b43c8e-dd91-468a-928e-a8ece6cafc6b")
+	)
+	(wire
+		(pts
+			(xy 278.13 41.91) (xy 269.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cdc964-c6e3-4974-a7af-9534ec093f86")
 	)
 	(wire
 		(pts
@@ -2559,6 +2613,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 26.67) (xy 261.62 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a5226fd-a6a0-4e0a-93be-39b0bf94a2b4")
+	)
+	(wire
+		(pts
 			(xy 241.3 40.64) (xy 241.3 19.05)
 		)
 		(stroke
@@ -2566,6 +2630,16 @@
 			(type default)
 		)
 		(uuid "7a5dc401-865c-4b17-ab20-258d4ec0bd83")
+	)
+	(wire
+		(pts
+			(xy 278.13 31.75) (xy 278.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb02c80-4777-4646-b401-1c1944e385d6")
 	)
 	(wire
 		(pts
@@ -2819,13 +2893,23 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 39.37) (xy 261.62 44.45)
+			(xy 261.62 39.37) (xy 261.62 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c729db2c-30c5-4b6e-9df8-645d4d7376ab")
+	)
+	(wire
+		(pts
+			(xy 261.62 41.91) (xy 261.62 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73618bd-a008-4532-b376-2d6e54b5215f")
 	)
 	(wire
 		(pts
@@ -2859,6 +2943,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 36.83) (xy 278.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc1b554-4509-47f5-ace8-cf333caf5f29")
+	)
+	(wire
+		(pts
 			(xy 161.29 87.63) (xy 190.5 87.63)
 		)
 		(stroke
@@ -2889,6 +2983,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 26.67) (xy 269.24 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06b1524-64bd-46df-86a4-301d3e77e001")
+	)
+	(wire
+		(pts
 			(xy 107.95 107.95) (xy 96.52 107.95)
 		)
 		(stroke
@@ -2899,13 +3003,33 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 25.4) (xy 261.62 31.75)
+			(xy 269.24 36.83) (xy 269.24 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4caa9a6-7fbe-4b24-bbf6-8fc27af7bcdb")
+	)
+	(wire
+		(pts
+			(xy 261.62 25.4) (xy 261.62 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eac473dd-0451-4699-aea7-ecf821667221")
+	)
+	(wire
+		(pts
+			(xy 269.24 41.91) (xy 261.62 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5f1cbd-7ba2-412e-864c-d5c6f92d8077")
 	)
 	(wire
 		(pts
@@ -6720,7 +6844,7 @@
 		)
 		(uuid "40c16720-8ea7-4780-956a-0ea53116b2f3")
 	)
-	(text "Fmax = Slew Rate / 2*pi*Vp\nVp = SR/2piF = 4.29V\nTherefore, only amplify this signal to 4V, 4x gain\n\nLPF Design:\nfc = (1/2pi)*sqrt(1/R3R4C2C5)\nR4 = R3 = 1k\nfc = 2e6\nC2C5 = 1.56pF\nC5 = 1pF\nC2 = 1.56pF\n"
+	(text "Fmax = Slew Rate / 2*pi*Vp\nVp = SR/2piF = 27 V/us  * 1/2*pi*1MHz = \nTherefore, only amplify this signal to 4V, 4x gain\n\nLPF Design:\nfc = (1/2pi)*sqrt(1/R3R4C2C5)\nR4 = R3 = 1k\nfc = 2e6\nC2C5 = 1.56pF\nC5 = 1pF\nC2 = 1.56pF\n"
 		(exclude_from_sim no)
 		(at 16.764 39.116 0)
 		(effects
@@ -6754,7 +6878,7 @@
 	)
 	(text "0.1uF bypass cap recommended\n"
 		(exclude_from_sim no)
-		(at 99.314 73.406 0)
+		(at 99.568 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6762,17 +6886,6 @@
 			(justify left)
 		)
 		(uuid "a897d162-f4d7-420e-9969-417f057a7998")
-	)
-	(text "TODO: BYPASS CAPS\n"
-		(exclude_from_sim no)
-		(at 213.868 47.498 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b368d4f5-5529-439d-af9b-81130eda71eb")
 	)
 	(label "output0_lv"
 		(at 128.27 58.42 0)
@@ -6796,6 +6909,17 @@
 		)
 		(uuid "06ef6c94-2230-4ab9-9ac4-d1042878d2d6")
 	)
+	(label "output_1"
+		(at 156.21 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "416830a8-da5b-4fac-a394-b8247b36eae3")
+	)
 	(label "output1_lv"
 		(at 129.54 109.22 0)
 		(fields_autoplaced yes)
@@ -6817,6 +6941,17 @@
 			(justify left bottom)
 		)
 		(uuid "6e333911-66a6-4336-b43d-13cdca1552ab")
+	)
+	(label "output_0"
+		(at 154.94 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "775890e8-2d05-48ca-bea5-c1c153c56c4c")
 	)
 	(global_label "input_1a"
 		(shape input)
@@ -7180,80 +7315,6 @@
 				)
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/c5f8f1eb-735d-4b18-a79d-9c99ea47b523"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1200d88c-2017-4cd5-91c8-527aaf72671d")
-		(property "Reference" "#PWR036"
-			(at 154.94 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d902cae-8803-4dc9-a89a-8d4083a84955")
-		)
-		(instances
-			(project ""
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
-					(reference "#PWR036")
-					(unit 1)
-				)
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/94465068-c3c9-432f-8cc2-1a38d23f76cc"
-					(reference "#PWR051")
-					(unit 1)
-				)
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/c5f8f1eb-735d-4b18-a79d-9c99ea47b523"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7655,72 +7716,6 @@
 				)
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/c5f8f1eb-735d-4b18-a79d-9c99ea47b523"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42e751d1-73d0-4db9-a198-a9c47b45b306")
-		(property "Reference" "#PWR037"
-			(at 156.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "876729f9-49ad-4023-a231-0ded8da9214a")
-		)
-		(instances
-			(project "amp_board_rev2"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9335,6 +9330,236 @@
 			(project "amp_board_rev2"
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 269.24 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa81589f-c1c7-4713-93f8-f29d6750181e")
+		(property "Reference" "C36"
+			(at 271.78 33.0262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 271.78 35.5662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" ""
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0ddfdc2-e176-47fd-9d02-08ba98ed087d")
+		)
+		(pin "2"
+			(uuid "95126992-4521-486b-b82c-93627fb34262")
+		)
+		(instances
+			(project "amp_board_rev2"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 278.13 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae157c3b-f101-4da5-9085-9d9c39aaafc3")
+		(property "Reference" "C37"
+			(at 280.67 33.0262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 280.67 35.5662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 278.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 278.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 278.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 278.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" ""
+			(at 278.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 278.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 278.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "210eb276-7219-45ee-a7b8-20c675e46618")
+		)
+		(pin "2"
+			(uuid "c69ca377-03fc-4a3a-8b4c-1bc54f5380d9")
+		)
+		(instances
+			(project "amp_board_rev2"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
+					(reference "C37")
 					(unit 1)
 				)
 			)
