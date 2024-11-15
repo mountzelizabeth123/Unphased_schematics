@@ -1101,576 +1101,6 @@
 				)
 			)
 		)
-		(symbol "_PHASE:PA343_2Units"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PA343_2Units_1_1"
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0 19.05) (xy 20.32 6.35) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 10.16 17.78 270)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 5.08) hide
-					(name "NC_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 5.08) hide
-					(name "NC_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 5.08) hide
-					(name "NC_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 5.08) hide
-					(name "NC_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 5.08) hide
-					(name "NC_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 12.7 0)
-					(length 5.08)
-					(name "-IN_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 8.89 0)
-					(length 5.08)
-					(name "+IN_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 5.08) hide
-					(name "NC_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 5.08) hide
-					(name "NC_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -3.81 90)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 90)
-					(length 5.08)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 90)
-					(length 5.08) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 90)
-					(length 5.08) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 6.35 0)
-					(length 5.08)
-					(name "CL_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 3.81 0)
-					(length 5.08)
-					(name "CC_A_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 5.08)
-					(name "CC_A_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 6.35 180)
-					(length 5.08)
-					(name "OUT_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -1.27 0)
-					(length 5.08) hide
-					(name "NC_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PA343_2Units_2_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 26.67) (xy 20.32 13.97) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 10.16 3.81 90)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 25.4 270)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 13.97 0)
-					(length 5.08)
-					(name "CL_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 11.43 0)
-					(length 5.08)
-					(name "CC_B_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 8.89 0)
-					(length 5.08)
-					(name "CC_B_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 13.97 180)
-					(length 5.08)
-					(name "OUT_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 20.32 0)
-					(length 5.08)
-					(name "-IN_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 16.51 0)
-					(length 5.08)
-					(name "+IN_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "_PHASE:SMCJ150A-13-F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2289,12 +1719,76 @@
 		(uuid "eeb2e746-6e0f-4ef2-9c6d-35a3f38a6ec3")
 	)
 	(no_connect
+		(at 308.61 101.6)
+		(uuid "24acf10a-3301-4377-88d1-465c4e393b0f")
+	)
+	(no_connect
+		(at 191.77 50.8)
+		(uuid "2ccf2563-9de7-47d5-8ae0-90658ae6aadf")
+	)
+	(no_connect
 		(at 166.37 48.26)
 		(uuid "3b89a9ee-d869-4f37-8b06-1c47f7f3c5be")
 	)
 	(no_connect
+		(at 195.58 95.25)
+		(uuid "6091ffaa-3ccf-4dbf-b9aa-1a8030bae030")
+	)
+	(no_connect
+		(at 189.23 50.8)
+		(uuid "6566d32a-422e-44da-94c5-7353de72ecb9")
+	)
+	(no_connect
+		(at 304.8 57.15)
+		(uuid "71ea9453-4514-4349-a29d-5040f0267eb6")
+	)
+	(no_connect
+		(at 303.53 101.6)
+		(uuid "8e0bb6fa-d76d-4be4-a129-8851e870d6db")
+	)
+	(no_connect
 		(at 167.64 92.71)
 		(uuid "9fa0cb20-177e-4609-afa6-494b7b811d69")
+	)
+	(no_connect
+		(at 307.34 57.15)
+		(uuid "a6045b82-94ff-48fc-a663-5e5304a68378")
+	)
+	(no_connect
+		(at 187.96 95.25)
+		(uuid "aa01be4b-b303-445c-af1a-f02757a9c31e")
+	)
+	(no_connect
+		(at 193.04 95.25)
+		(uuid "aea2ecff-7d09-4456-a9a9-5cf480bd2486")
+	)
+	(no_connect
+		(at 194.31 50.8)
+		(uuid "aed37253-972f-473d-9840-eb0e22a0eb5d")
+	)
+	(no_connect
+		(at 306.07 101.6)
+		(uuid "c090c689-fe3e-493d-a6b9-a32f5344715d")
+	)
+	(no_connect
+		(at 300.99 101.6)
+		(uuid "d3e69c8f-667f-457e-8b6f-c030ad8632ab")
+	)
+	(no_connect
+		(at 299.72 57.15)
+		(uuid "d63ce6c5-0a5b-496b-99a5-476f22bb7ddb")
+	)
+	(no_connect
+		(at 186.69 50.8)
+		(uuid "e85beb7a-dac4-4bbc-a66b-701eb5a32a74")
+	)
+	(no_connect
+		(at 190.5 95.25)
+		(uuid "f6827950-76ea-4a25-ae64-72017cd2c883")
+	)
+	(no_connect
+		(at 302.26 57.15)
+		(uuid "ff1ab090-13ea-47bd-9336-ade169beca1b")
 	)
 	(wire
 		(pts
@@ -5307,7 +4801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD500W65D1000H2200"
+		(property "Footprint" "726_footprints:EEU-EB2G100"
 			(at 104.47 167.64 0)
 			(effects
 				(font
@@ -5630,7 +5124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 290.83 161.29 0)
 			(effects
 				(font
@@ -5899,7 +5393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD500W65D1000H2200"
+		(property "Footprint" "726_footprints:EEU-EB2G100"
 			(at 211.15 163.83 0)
 			(effects
 				(font
@@ -6285,7 +5779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 269.24 52.07 0)
 			(effects
 				(font
@@ -6419,7 +5913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 270.51 96.52 0)
 			(effects
 				(font
@@ -6691,7 +6185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "726_footprints:PA341DF"
 			(at 171.45 46.99 0)
 			(effects
 				(font
@@ -6903,7 +6397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD500W65D1000H2200"
+		(property "Footprint" "726_footprints:EEU-EB2G100"
 			(at 204.8 137.16 0)
 			(effects
 				(font
@@ -7068,149 +6562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "_PHASE:PA343_2Units")
-		(at 288.29 105.41 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a31687c-cf28-4d39-8567-214aae32fa1b")
-		(property "Reference" "U9"
-			(at 312.42 85.1214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PA343"
-			(at 312.42 87.6614 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "726_footprints:PA341DF"
-			(at 288.29 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 288.29 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "eb2a83f3-d1bd-4832-a850-ee5e94bd87c2")
-		)
-		(pin "15"
-			(uuid "cae9f134-8a8f-49f3-90a2-5cfde85bf76b")
-		)
-		(pin "20"
-			(uuid "ab34ef61-a813-460a-a1b1-3f86e62dd926")
-		)
-		(pin "24"
-			(uuid "ca51747c-0c4d-44a0-a343-a09bc981b58c")
-		)
-		(pin "2"
-			(uuid "75237082-adb5-461b-94d3-78fa67293811")
-		)
-		(pin "9"
-			(uuid "4cedc722-dd14-4d35-a455-8a3783228b9d")
-		)
-		(pin "16"
-			(uuid "6836017f-8f5f-4c61-912e-7aa7b5fcf68c")
-		)
-		(pin "7"
-			(uuid "54282da8-f99b-47b2-bbb1-e3dcc7332837")
-		)
-		(pin "23"
-			(uuid "5512b780-fba6-4bb7-b55f-ef43179df0aa")
-		)
-		(pin "14"
-			(uuid "8129a717-3a36-4330-bcde-d9f567e72e81")
-		)
-		(pin "6"
-			(uuid "16005887-de7e-4d88-bb39-536aa7e3e88a")
-		)
-		(pin "11"
-			(uuid "9a2b7baa-5189-416b-9e6e-a9eae6c58ff3")
-		)
-		(pin "22"
-			(uuid "7d8d44a0-1d87-47ba-ae0d-ac78f7f2bead")
-		)
-		(pin "10"
-			(uuid "720dcdd0-3b97-40e8-a907-a022063ff08e")
-		)
-		(pin "17"
-			(uuid "113d7fa4-2ea0-4c18-b649-41cc9132645e")
-		)
-		(pin "19"
-			(uuid "3359cbba-9754-40a5-b8b4-e6dec6b9ef9b")
-		)
-		(pin "3"
-			(uuid "b5bb82cb-1b7b-4b30-8b94-4e550762cd22")
-		)
-		(pin "1"
-			(uuid "044df85c-cd63-40a6-b66d-423cffb5dc1b")
-		)
-		(pin "18"
-			(uuid "c79d3487-9b32-446a-95b8-559e0e215a37")
-		)
-		(pin "8"
-			(uuid "f3a1b982-349b-4a06-b740-cbf50d6098db")
-		)
-		(pin "4"
-			(uuid "189f5822-ab49-4daa-8139-a495d040f861")
-		)
-		(pin "5"
-			(uuid "75e7abda-47ba-4672-84ac-85fab2aa2b1f")
-		)
-		(pin "12"
-			(uuid "c41ea84d-e2ee-4916-96fa-f4115a178b79")
-		)
-		(pin "13"
-			(uuid "35d6162e-7bae-4727-b6a5-463ce9a5193e")
-		)
-		(pin "26"
-			(uuid "b4c0e143-7733-431b-aa51-7f48db492fc2")
-		)
-		(pin "25"
-			(uuid "47dfbd5c-dac6-461f-a681-d57b2d09b57b")
-		)
-		(pin "27"
-			(uuid "359a7d22-317a-440f-9887-bb0e167bc9a5")
-		)
-		(instances
-			(project ""
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
-					(reference "U9")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 71.12 38.1 270)
 		(unit 1)
@@ -7305,7 +6656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPRD500W65D1000H2200"
+		(property "Footprint" "726_footprints:EEU-EB2G100"
 			(at 103.2 138.43 0)
 			(effects
 				(font
@@ -7558,7 +6909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 78.74 0)
 			(effects
 				(font
@@ -7698,7 +7049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 285.75 134.62 0)
 			(effects
 				(font
@@ -8076,6 +7427,149 @@
 		)
 	)
 	(symbol
+		(lib_id "_PHASE:PA343")
+		(at 288.29 105.41 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf2120d9-1905-498e-adb8-7fe51ce308d8")
+		(property "Reference" "U9"
+			(at 312.42 85.1214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PA343"
+			(at 312.42 87.6614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:PA341DF"
+			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "db95d295-35f2-439e-98be-9d96cc3be2bf")
+		)
+		(pin "25"
+			(uuid "64c9d2d4-dfb3-4bde-be4e-af0bb42a0443")
+		)
+		(pin "3"
+			(uuid "fb88fbf4-01ad-4ace-af02-99e00ae1e668")
+		)
+		(pin "8"
+			(uuid "d34f75da-75c7-4c5d-b90d-6927af922be7")
+		)
+		(pin "20"
+			(uuid "e44b0aea-a025-401f-85d7-05b254c58e06")
+		)
+		(pin "18"
+			(uuid "b208e0e6-660d-4457-8a09-5b60475692f4")
+		)
+		(pin "11"
+			(uuid "e4ea4484-8e44-4a05-b810-49c265d0ae71")
+		)
+		(pin "7"
+			(uuid "5f788059-73a6-48a2-ac1d-44d0271a55b3")
+		)
+		(pin "16"
+			(uuid "8962991f-d91e-47a9-8a89-f50c163b03c6")
+		)
+		(pin "12"
+			(uuid "db385767-6ff7-4477-a75d-d1046565e37c")
+		)
+		(pin "6"
+			(uuid "efa86d19-6ee7-4b2e-b431-4df41da364d7")
+		)
+		(pin "5"
+			(uuid "6a89aeb7-bc06-4fcc-9746-ab8764307614")
+		)
+		(pin "21"
+			(uuid "a2d0d6f3-fba4-4867-84d6-7c34723daf1f")
+		)
+		(pin "15"
+			(uuid "8ef55482-6fd6-430f-bb26-4e214b382e4a")
+		)
+		(pin "17"
+			(uuid "aa644fe7-d70b-4a49-b2bb-d114119f1302")
+		)
+		(pin "19"
+			(uuid "ab70b7dd-128b-4e2e-b412-86ac591a7036")
+		)
+		(pin "9"
+			(uuid "053d1ae7-8608-489d-8e4b-5e111140c0a0")
+		)
+		(pin "26"
+			(uuid "6e4dcbd3-de03-42ac-b572-6bf80fc12ffc")
+		)
+		(pin "1"
+			(uuid "3d2a5612-8cd1-4655-95e4-3e12276c39d4")
+		)
+		(pin "23"
+			(uuid "3cb7ea12-12cc-49c9-9ec7-1ebacf30e4e9")
+		)
+		(pin "24"
+			(uuid "6f1986ec-0de8-4915-94ca-1a46f039da08")
+		)
+		(pin "13"
+			(uuid "394564c4-529d-4c4b-a7dd-6331c0cbd725")
+		)
+		(pin "27"
+			(uuid "0082f7ab-7bef-46bb-aa61-46c180e293d6")
+		)
+		(pin "4"
+			(uuid "ee1f6938-f5ac-4fbd-b5c0-17e5c3760cc2")
+		)
+		(pin "10"
+			(uuid "97f935e2-f4d4-4818-b388-0ba083fa3d6d")
+		)
+		(pin "2"
+			(uuid "d4393b02-5907-4473-a0ee-087294e9f3f1")
+		)
+		(pin "22"
+			(uuid "fa1ecf0b-d6d4-41c4-b443-d983b8a71bcb")
+		)
+		(instances
+			(project "amp_board_rev3"
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
+					(reference "U9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 302.26 25.4 270)
 		(unit 1)
@@ -8167,7 +7661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 153.67 45.72 0)
 			(effects
 				(font
@@ -8235,7 +7729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 34.29 0)
 			(effects
 				(font
@@ -8437,7 +7931,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.29 43.18 0)
 			(effects
 				(font
@@ -8504,7 +7998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 154.94 90.17 0)
 			(effects
 				(font
@@ -8641,7 +8135,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 184.15 165.1 0)
 			(effects
 				(font
@@ -8843,7 +8337,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 34.29 87.63 0)
 			(effects
 				(font
@@ -9289,6 +8783,149 @@
 		)
 	)
 	(symbol
+		(lib_id "_PHASE:PA343")
+		(at 287.02 60.96 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f08c3413-1d9e-4441-addf-fdea01c826ac")
+		(property "Reference" "U8"
+			(at 311.15 40.6714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PA343"
+			(at 311.15 43.2114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "726_footprints:PA341DF"
+			(at 287.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "db95d295-35f2-439e-98be-9d96cc3be2bf")
+		)
+		(pin "25"
+			(uuid "64c9d2d4-dfb3-4bde-be4e-af0bb42a0443")
+		)
+		(pin "3"
+			(uuid "fb88fbf4-01ad-4ace-af02-99e00ae1e668")
+		)
+		(pin "8"
+			(uuid "c1e4b930-b14d-4d29-80ff-b5593e254b32")
+		)
+		(pin "20"
+			(uuid "e44b0aea-a025-401f-85d7-05b254c58e06")
+		)
+		(pin "18"
+			(uuid "3b6c49a9-1990-4c5f-bebc-b1b5906eb477")
+		)
+		(pin "11"
+			(uuid "e4ea4484-8e44-4a05-b810-49c265d0ae71")
+		)
+		(pin "7"
+			(uuid "5f788059-73a6-48a2-ac1d-44d0271a55b3")
+		)
+		(pin "16"
+			(uuid "38aa36f0-7ac3-4c3f-bc23-ae478ae8d41e")
+		)
+		(pin "12"
+			(uuid "f168c018-e3e2-4023-9145-7faa6577a4fc")
+		)
+		(pin "6"
+			(uuid "efa86d19-6ee7-4b2e-b431-4df41da364d7")
+		)
+		(pin "5"
+			(uuid "6a89aeb7-bc06-4fcc-9746-ab8764307614")
+		)
+		(pin "21"
+			(uuid "a2d0d6f3-fba4-4867-84d6-7c34723daf1f")
+		)
+		(pin "15"
+			(uuid "de931e32-9de9-41e6-9279-e3553185571f")
+		)
+		(pin "17"
+			(uuid "40f64168-e039-417a-a4c9-e50c8649b676")
+		)
+		(pin "19"
+			(uuid "fcef07f6-7ed6-4168-b4cc-7c4908e1ef02")
+		)
+		(pin "9"
+			(uuid "b9cfdcb8-be15-4915-8021-9e7622a5ac09")
+		)
+		(pin "26"
+			(uuid "6e4dcbd3-de03-42ac-b572-6bf80fc12ffc")
+		)
+		(pin "1"
+			(uuid "3d2a5612-8cd1-4655-95e4-3e12276c39d4")
+		)
+		(pin "23"
+			(uuid "fd88e467-d6f9-4440-86ad-c51b52dd0613")
+		)
+		(pin "24"
+			(uuid "6f1986ec-0de8-4915-94ca-1a46f039da08")
+		)
+		(pin "13"
+			(uuid "93525048-8e94-40fc-84b7-c59b66ed3375")
+		)
+		(pin "27"
+			(uuid "0082f7ab-7bef-46bb-aa61-46c180e293d6")
+		)
+		(pin "4"
+			(uuid "ee1f6938-f5ac-4fbd-b5c0-17e5c3760cc2")
+		)
+		(pin "10"
+			(uuid "97f935e2-f4d4-4818-b388-0ba083fa3d6d")
+		)
+		(pin "2"
+			(uuid "f08fb552-d791-4248-97b3-a1538fc1022f")
+		)
+		(pin "22"
+			(uuid "14324033-283b-4f6e-9d41-089c0d30050b")
+		)
+		(instances
+			(project ""
+				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 278.13 125.73 0)
 		(unit 1)
@@ -9383,7 +9020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 182.88 135.89 0)
 			(effects
 				(font
@@ -9451,7 +9088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "726_footprints:PA341DF"
 			(at 172.72 91.44 0)
 			(effects
 				(font
@@ -9631,149 +9268,6 @@
 				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
 					(reference "R15")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "_PHASE:PA343_2Units")
-		(at 287.02 60.96 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fec19f70-34a7-48e8-9d53-fcc1e12bec92")
-		(property "Reference" "U8"
-			(at 311.15 40.6714 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PA343"
-			(at 311.15 43.2114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "726_footprints:PA341DF"
-			(at 287.02 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 287.02 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 287.02 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "eb2a83f3-d1bd-4832-a850-ee5e94bd87c3")
-		)
-		(pin "15"
-			(uuid "ffc2053d-c03a-4040-878f-25d2deff827f")
-		)
-		(pin "20"
-			(uuid "ab34ef61-a813-460a-a1b1-3f86e62dd927")
-		)
-		(pin "24"
-			(uuid "ca51747c-0c4d-44a0-a343-a09bc981b58d")
-		)
-		(pin "2"
-			(uuid "75237082-adb5-461b-94d3-78fa67293812")
-		)
-		(pin "9"
-			(uuid "f6ff70b3-0fa0-4f5e-8b76-b1ab47aa77d5")
-		)
-		(pin "16"
-			(uuid "984a4273-fd91-45fe-a97c-6354838acbcf")
-		)
-		(pin "7"
-			(uuid "54282da8-f99b-47b2-bbb1-e3dcc7332838")
-		)
-		(pin "23"
-			(uuid "5512b780-fba6-4bb7-b55f-ef43179df0ab")
-		)
-		(pin "14"
-			(uuid "8129a717-3a36-4330-bcde-d9f567e72e82")
-		)
-		(pin "6"
-			(uuid "16005887-de7e-4d88-bb39-536aa7e3e88b")
-		)
-		(pin "11"
-			(uuid "9a2b7baa-5189-416b-9e6e-a9eae6c58ff4")
-		)
-		(pin "22"
-			(uuid "7d8d44a0-1d87-47ba-ae0d-ac78f7f2beae")
-		)
-		(pin "10"
-			(uuid "720dcdd0-3b97-40e8-a907-a022063ff08f")
-		)
-		(pin "17"
-			(uuid "dae11ac1-d506-4fb4-8abb-1a2dc34e6255")
-		)
-		(pin "19"
-			(uuid "3359cbba-9754-40a5-b8b4-e6dec6b9ef9c")
-		)
-		(pin "3"
-			(uuid "b5bb82cb-1b7b-4b30-8b94-4e550762cd23")
-		)
-		(pin "1"
-			(uuid "044df85c-cd63-40a6-b66d-423cffb5dc1c")
-		)
-		(pin "18"
-			(uuid "fe417784-4a42-44de-9a31-aedd8e3360e2")
-		)
-		(pin "8"
-			(uuid "f552139c-c09b-4b3a-bf27-8ac647649af2")
-		)
-		(pin "4"
-			(uuid "189f5822-ab49-4daa-8139-a495d040f862")
-		)
-		(pin "5"
-			(uuid "75e7abda-47ba-4672-84ac-85fab2aa2b20")
-		)
-		(pin "12"
-			(uuid "cbf27c1b-91f1-44a0-9070-8a19d43155ef")
-		)
-		(pin "13"
-			(uuid "97ac085c-d39a-457a-a41d-ac18d12bcd11")
-		)
-		(pin "26"
-			(uuid "b4c0e143-7733-431b-aa51-7f48db492fc3")
-		)
-		(pin "25"
-			(uuid "47dfbd5c-dac6-461f-a681-d57b2d09b57c")
-		)
-		(pin "27"
-			(uuid "359a7d22-317a-440f-9887-bb0e167bc9a6")
-		)
-		(instances
-			(project "amp_board_rev3"
-				(path "/c6103430-c27a-4e90-8e2e-9404255f5ee3/4b870615-1fdd-4c38-ae2a-ce2f07b58b57"
-					(reference "U8")
-					(unit 2)
 				)
 			)
 		)

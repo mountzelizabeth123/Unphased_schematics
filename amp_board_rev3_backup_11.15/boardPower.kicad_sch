@@ -2032,7 +2032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:EEU-EB2G100"
+		(property "Footprint" "CAPPRD500W65D1000H2200"
 			(at -7.29 67.31 0)
 			(effects
 				(font
@@ -2441,7 +2441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" ""
 			(at 134.62 74.93 0)
 			(effects
 				(font
@@ -2511,7 +2511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" ""
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -2792,7 +2792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:EEU-EB2G100"
+		(property "Footprint" "CAPPRD500W65D1000H2200"
 			(at 60.02 78.74 0)
 			(effects
 				(font
