@@ -1802,11 +1802,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 130.81 0)
+			(at 62.23 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1860,24 +1861,22 @@
 		(fields_autoplaced yes)
 		(uuid "5f19fa94-fcb5-4cfe-b2b5-e9e7a738f8d0")
 		(property "Reference" "J6"
-			(at 43.18 46.9899 0)
+			(at 48.26 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "CT3151V1-0"
-			(at 43.18 49.5299 0)
+			(at 48.26 39.37 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:banana_plug_CT3151V1-0"
+		(property "Footprint" "0_726_footprints:banana_plug_CT3151V1-0"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -1898,51 +1897,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" ""
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 57.15 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -2000,7 +1954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:banana_plug_CT3151V1-0"
+		(property "Footprint" "0_726_footprints:banana_plug_CT3151V1-0"
 			(at 125.73 69.85 0)
 			(effects
 				(font
@@ -2021,51 +1975,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 125.73 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 125.73 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" ""
-			(at 125.73 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 125.73 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
 			(at 125.73 69.85 0)
 			(effects
 				(font
@@ -2123,7 +2032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:EEU-EB2G100"
+		(property "Footprint" "CAPPRD500W65D1000H2200"
 			(at -7.29 67.31 0)
 			(effects
 				(font
@@ -2295,24 +2204,22 @@
 		(fields_autoplaced yes)
 		(uuid "9039dadf-00a6-48bc-b000-df76073f4996")
 		(property "Reference" "J4"
-			(at 45.72 92.7099 0)
+			(at 50.8 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "CT3151V1-0"
-			(at 45.72 95.2499 0)
+			(at 50.8 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:banana_plug_CT3151V1-0"
+		(property "Footprint" "0_726_footprints:banana_plug_CT3151V1-0"
 			(at 59.69 90.17 0)
 			(effects
 				(font
@@ -2333,51 +2240,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 59.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 59.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" ""
-			(at 59.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 59.69 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
 			(at 59.69 90.17 0)
 			(effects
 				(font
@@ -2419,24 +2281,22 @@
 		(fields_autoplaced yes)
 		(uuid "93d4c372-7f47-407e-b3fa-12600384119d")
 		(property "Reference" "J1"
-			(at 43.18 66.0399 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "CT3151V1-0"
-			(at 43.18 68.5799 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:banana_plug_CT3151V1-0"
+		(property "Footprint" "0_726_footprints:banana_plug_CT3151V1-0"
 			(at 57.15 63.5 0)
 			(effects
 				(font
@@ -2457,51 +2317,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 57.15 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 57.15 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" ""
-			(at 57.15 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 57.15 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
 			(at 57.15 63.5 0)
 			(effects
 				(font
@@ -2551,11 +2366,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 85.09 0)
+			(at 78.74 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2625,7 +2441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" ""
 			(at 134.62 74.93 0)
 			(effects
 				(font
@@ -2644,51 +2460,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" ""
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 134.62 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
 			(at 134.62 74.93 0)
 			(effects
 				(font
@@ -2740,7 +2511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
+		(property "Footprint" ""
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -2759,51 +2530,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 67.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 67.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 67.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" ""
-			(at 67.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 67.31 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -2847,11 +2573,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 91.44 0)
+			(at 146.05 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2913,11 +2640,12 @@
 			)
 		)
 		(property "Value" "HV"
-			(at 125.73 50.8 0)
+			(at 128.27 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2971,24 +2699,22 @@
 		(fields_autoplaced yes)
 		(uuid "f05bc6c3-f351-4a71-bb42-ed90a8821dfc")
 		(property "Reference" "J8"
-			(at 45.72 113.0299 0)
+			(at 50.8 102.87 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "CT3151V1-0"
-			(at 45.72 115.5699 0)
+			(at 50.8 105.41 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:banana_plug_CT3151V1-0"
+		(property "Footprint" "0_726_footprints:banana_plug_CT3151V1-0"
 			(at 59.69 110.49 0)
 			(effects
 				(font
@@ -3009,51 +2735,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 59.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 59.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_NEWARK" ""
-			(at 59.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 59.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" ""
 			(at 59.69 110.49 0)
 			(effects
 				(font
@@ -3111,7 +2792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "726_footprints:EEU-EB2G100"
+		(property "Footprint" "CAPPRD500W65D1000H2200"
 			(at 60.02 78.74 0)
 			(effects
 				(font
