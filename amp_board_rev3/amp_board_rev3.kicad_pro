@@ -609,7 +609,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "C:\\Users\\user\\Downloads\\amp_board_bom_test_wDup.csv",
+    "bom_export_filename": "C:\\Users\\user\\Downloads\\amp_board_bom_11.15.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -773,7 +773,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
