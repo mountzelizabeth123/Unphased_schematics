@@ -4797,7 +4797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 84.836 44.704 90)
 			(effects
 				(font
@@ -4933,7 +4933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 40.386 73.914 90)
 			(effects
 				(font
@@ -5892,7 +5892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 86.106 152.654 90)
 			(effects
 				(font
@@ -6452,7 +6452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 41.656 110.744 90)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 183.896 44.704 90)
 			(effects
 				(font
@@ -8289,7 +8289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 138.176 73.914 90)
 			(effects
 				(font
@@ -8776,7 +8776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 41.656 146.304 90)
 			(effects
 				(font
@@ -9123,7 +9123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 86.106 117.094 90)
 			(effects
 				(font
@@ -10449,7 +10449,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 37.846 38.354 90)
 			(effects
 				(font
@@ -11001,7 +11001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 139.446 38.354 90)
 			(effects
 				(font
@@ -11137,7 +11137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 182.626 80.264 90)
 			(effects
 				(font
@@ -11207,7 +11207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "0_726_footprints:R_0603_1608Metric_Vishay_WBT"
 			(at 84.836 80.264 90)
 			(effects
 				(font
